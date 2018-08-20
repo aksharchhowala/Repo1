@@ -38,13 +38,7 @@ namespace MyFirstTestProject
             // Do not delete - a parameterless constructor is required!
         }
 
-string _stringFilePath = "C:\\Program Files (x86)\\Ranorex 8.2\\Samples\\Desktop\\KeePass Sample\\KeePassTestSuite\\KeePass\\KeePass.exe";
-[TestVariable("80c01420-ad77-4c63-b0cd-14dcefa58868")]
-public string stringFilePath
-{
-	get { return _stringFilePath; }
-	set { _stringFilePath = value; }
-}
+
 
         /// <summary>
         /// Performs the playback of actions in this module.
@@ -58,23 +52,18 @@ public string stringFilePath
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
             try{
-            	LogInFunction();
+    
             	AddNewEntery();
             	ValidateTitle();
             	DeleteEntery();
+    
             }
-            finally{
-            	LogOutModule();
+            catch(Exception e){
+            	Console.WriteLine(e);
+            	FailureWithScreenshot(e.ToString());
             }
-        }
         
-        public void LogInFunction(){
-        	
-        	Host.Local.RunApplication(_stringFilePath);
-        	textValue_fn(repo.LoginPage.Text,"rx");
-            Click_fn(repo.LoginPage.MBtnOK);
-           
-        }
+        }  
         
         string _strTitle = "KeePass";
         [TestVariable("a9ec668d-a3e7-4659-aba0-40a4a02e371d")]
@@ -154,12 +143,6 @@ public string stringFilePath
         	Click_fn(repo.KeePass.DeleteEntry);
         	
         }
-        
-        public void LogOutModule(){
-        	Thread.Sleep(5000);
-        	Host.Local.KillApplications("KeePass");
-        }
-        
         
     }
 }

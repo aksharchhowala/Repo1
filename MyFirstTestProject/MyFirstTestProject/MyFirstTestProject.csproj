@@ -117,8 +117,20 @@
     <Compile Include="AssemblyInfo.cs">
       <id>bf0776da-3b80-4876-b849-f376ac21f4aa</id>
     </Compile>
-    <Compile Include="CommonFunctions.cs">
+    <Compile Include="Common\CommonFunctions.cs">
       <id>a8a403e1-875a-4a84-9fab-b5f8b6f0d74d</id>
+    </Compile>
+    <Compile Include="KeePass\AddDeleteEntery.cs">
+      <id>091f40ff-a84a-4c40-bcb6-ef42bc48a160</id>
+    </Compile>
+    <Compile Include="KeePass\KeePassVersion.cs">
+      <id>5f26940f-ce04-4f34-96bc-65bd463425b8</id>
+    </Compile>
+    <Compile Include="KeePass\LogIn.cs">
+      <id>41cca610-7724-4994-b615-7c4324ccd41d</id>
+    </Compile>
+    <Compile Include="KeePass\LogOut.cs">
+      <id>674f60cd-b7bd-4acf-9784-c540387228a7</id>
     </Compile>
     <Compile Include="MyFirstTestProjectRepository.cs">
       <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
@@ -128,9 +140,6 @@
     </Compile>
     <Compile Include="Program.cs">
       <id>ceebcb6a-880d-48fb-ae01-9d0a372c02d1</id>
-    </Compile>
-    <Compile Include="AddDeleteEntery.cs">
-      <id>091f40ff-a84a-4c40-bcb6-ef42bc48a160</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +185,12 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Common">
+      <id>217c8fd2-7469-41dc-bd6a-f743d66353f8</id>
+    </Folder>
+    <Folder Include="KeePass">
+      <id>94c41591-df93-45dd-b7d7-fb13cf8b4bdb</id>
+    </Folder>
     <Folder Include="NewCustomTemplate1">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>5981e29a-b008-47e7-b1e0-ad1a2f6ef454</id>

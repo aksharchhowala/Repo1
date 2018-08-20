@@ -3,6 +3,10 @@
 rxversion="8.2">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<setup
+			id="16350494-8dc7-4025-ad2e-be3ec5a98f95"
+			name="setup">
+			</setup>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -19,16 +23,10 @@ rxversion="8.2">
 			</testsuite>
 			<testmodule
 			id="2b417754-ce92-4e66-b103-d61318b1b2ed"
-			name="LogIn"
+			name="AddDeleteEntery"
 			ref="cc0ab905-a10d-4cc0-b67e-c1eb9342ac9c"
 			type="UserCode">
 				<databinding>
-					<var
-					dataname="GlobalExicutionPath"
-					datasourceid="82970793-9771-4ed7-89a3-d8de0f03b223"
-					variableid="80c01420-ad77-4c63-b0cd-14dcefa58868"
-					variablename="stringFilePath">
-					</var>
 					<var
 					dataname="Tile"
 					datasourceid="db63bdaa-c96e-4d68-867f-76f28de347ef"
@@ -64,8 +62,50 @@ rxversion="8.2">
 			<testcase
 			datasource="NewConnector2"
 			id="39f42f23-9abd-41a9-9f93-7d719dad14df"
-			name="DemoUserCode">
+			name="KeePassAddDelete">
 			</testcase>
+			<testmodule
+			id="3f03f42f-0485-47ea-9f48-e7f9355d7c2c"
+			name="LogIn"
+			ref="c3ab70e8-67fa-42dc-94a1-15deda2900ca"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="GlobalExicutionPath"
+					datasourceid="82970793-9771-4ed7-89a3-d8de0f03b223"
+					variableid="80c01420-ad77-4c63-b0cd-14dcefa58868"
+					variablename="stringFilePath">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="42ef8039-31a3-4ce8-8aa6-c19c64dd1f0a"
+			name="KeePassVersion"
+			ref="106423ec-7179-4b7c-935d-10158888170f"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="Version"
+					datasourceid="9b786fbb-ac60-4e87-99bf-904e702b0494"
+					variableid="3c95033f-aecd-4c8d-b54d-141761837c3c"
+					variablename="strVersion">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="7e11a2fb-0f6e-4c1e-a629-5425c000247c"
+			name="LogIn"
+			ref="c3ab70e8-67fa-42dc-94a1-15deda2900ca"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="GlobalExicutionPath"
+					datasourceid="82970793-9771-4ed7-89a3-d8de0f03b223"
+					variableid="80c01420-ad77-4c63-b0cd-14dcefa58868"
+					variablename="stringFilePath">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="82970793-9771-4ed7-89a3-d8de0f03b223"
 			name="MyFirstTestProject"
@@ -77,6 +117,38 @@ rxversion="8.2">
 					</param>
 				</parameters>
 			</testcase>
+			<testcase
+			datarangeactive="True"
+			datasource="NewConnector"
+			id="c2402f93-1de9-43f1-bad3-0661013ac9db"
+			maxrange="0"
+			minrange="0"
+			name="KeePassVersion">
+			</testcase>
+			<teardown
+			id="c930d966-0148-4bbc-9ac2-b5db11199775"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="c9b06308-4e3d-45ee-b358-553fbc51de0a"
+			name="LogOut"
+			ref="8f1d382d-9e42-41f7-92ef-907002118dfa"
+			type="UserCode">
+			</testmodule>
+			<testmodule
+			id="dc6269fb-fc0d-460a-852e-6ec585559c90"
+			name="LogOut"
+			ref="8f1d382d-9e42-41f7-92ef-907002118dfa"
+			type="UserCode">
+			</testmodule>
+			<setup
+			id="f3728776-37d8-477c-b2ca-5a5c16b9254b"
+			name="setup">
+			</setup>
+			<teardown
+			id="fc2b8f3a-915c-46d8-b1f8-acf9a6b52503"
+			name="teardown">
+			</teardown>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -87,11 +159,51 @@ rxversion="8.2">
 				name="MyFirstTestProject">
 					<testcase
 					id="39f42f23-9abd-41a9-9f93-7d719dad14df"
-					name="DemoUserCode">
+					name="KeePassAddDelete">
+						<setup
+						id="f3728776-37d8-477c-b2ca-5a5c16b9254b"
+						name="setup">
+							<testmodule
+							id="7e11a2fb-0f6e-4c1e-a629-5425c000247c"
+							name="LogIn">
+							</testmodule>
+						</setup>
 						<testmodule
 						id="2b417754-ce92-4e66-b103-d61318b1b2ed"
-						name="LogIn">
+						name="AddDeleteEntery">
 						</testmodule>
+						<teardown
+						id="c930d966-0148-4bbc-9ac2-b5db11199775"
+						name="teardown">
+							<testmodule
+							id="dc6269fb-fc0d-460a-852e-6ec585559c90"
+							name="LogOut">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="c2402f93-1de9-43f1-bad3-0661013ac9db"
+					name="KeePassVersion">
+						<setup
+						id="16350494-8dc7-4025-ad2e-be3ec5a98f95"
+						name="setup">
+							<testmodule
+							id="3f03f42f-0485-47ea-9f48-e7f9355d7c2c"
+							name="LogIn">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="42ef8039-31a3-4ce8-8aa6-c19c64dd1f0a"
+						name="KeePassVersion">
+						</testmodule>
+						<teardown
+						id="fc2b8f3a-915c-46d8-b1f8-acf9a6b52503"
+						name="teardown">
+							<testmodule
+							id="c9b06308-4e3d-45ee-b358-553fbc51de0a"
+							name="LogOut">
+							</testmodule>
+						</teardown>
 					</testcase>
 				</testcase>
 			</testsuite>
@@ -100,42 +212,10 @@ rxversion="8.2">
 	<datasources>
 		<DataSource
 		filename="C:\Users\gg5bpd\Desktop\KeyPassDemo.xlsx"
-		id="a062bf29-cff3-4ce9-968c-563bfb0bd671"
+		id="9b786fbb-ac60-4e87-99bf-904e702b0494"
 		includefile="Unchecked"
 		lastknownrowcount="2"
 		name="NewConnector"
-		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="Sheet1"
-		worksheetrange="Auto-Range">
-			<lastknowncolumns>
-				<column>
-					Tile
-				</column>
-				<column>
-					UserName
-				</column>
-				<column>
-					Password
-				</column>
-				<column>
-					Expires
-				</column>
-				<column>
-					URL
-				</column>
-				<column>
-					Version
-				</column>
-			</lastknowncolumns>
-			<maskedcolumns>
-			</maskedcolumns>
-		</DataSource>
-		<DataSource
-		filename="C:\Users\gg5bpd\Desktop\KeyPassDemo.xlsx"
-		id="b44a7176-5035-4c48-ba5b-a48fe9bee9e4"
-		includefile="Unchecked"
-		lastknownrowcount="2"
-		name="NewConnector1"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
@@ -196,14 +276,35 @@ rxversion="8.2">
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="AllTestRun">
 		<testconfiguration
-		name="TestRun">
+		name="AddDelete">
 			<testcontainer
 			id="39f42f23-9abd-41a9-9f93-7d719dad14df">
 			</testcontainer>
 			<testcontainer
 			id="82970793-9771-4ed7-89a3-d8de0f03b223">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="AllTestRun">
+			<testcontainer
+			id="39f42f23-9abd-41a9-9f93-7d719dad14df">
+			</testcontainer>
+			<testcontainer
+			id="82970793-9771-4ed7-89a3-d8de0f03b223">
+			</testcontainer>
+			<testcontainer
+			id="c2402f93-1de9-43f1-bad3-0661013ac9db">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="Version">
+			<testcontainer
+			id="82970793-9771-4ed7-89a3-d8de0f03b223">
+			</testcontainer>
+			<testcontainer
+			id="c2402f93-1de9-43f1-bad3-0661013ac9db">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
