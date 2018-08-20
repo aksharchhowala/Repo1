@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="13f299d56af317cc"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="gg5bpd"
+		rxversion="8.2.1.0"
+		host="PNI6W2488"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="8/20/2018 1:06:51 PM"
+		timestampiso="2018-08-20T07:36:51"
+		endtime="8/20/2018 1:06:54 PM"
+		timeoutfactor="1"
+		module="UserCodeModule1">
+		<detail>
+			UserCodeModule1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.631"
+			timeRelativeToTestModuleStartTime="00:00.631"
+			timeWallClock="13:06:52"
+			time="00:00.631"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>stringFilePath
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

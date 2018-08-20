@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8566f086dcd9392"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="gg5bpd"
+		rxversion="8.2.1.0"
+		host="PNI6W2488"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="8/16/2018 12:57:14 PM"
+		timestampiso="2018-08-16T07:27:14"
+		endtime="8/16/2018 12:57:48 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="32.89s"
+			durationms="32894"
+			type="test-suite"
+			rid="1fc0dec295d9a6e"
+			totalerrorcount="0"
+			totalwarningcount="1"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyFirstTestProject"
+			headertext="MyFirstTestProject"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="32.86s"
+				durationms="32863"
+				type="test-case"
+				rid="8823f271be95f88"
+				totalerrorcount="0"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="4f8490f2-96ca-4ef1-9018-6de415ff2d74"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="32.85s"
+					durationms="32847"
+					type="test-module"
+					rid="67ffd90a0be1978"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="421e7435-29e2-4ccc-ba26-ab01a8579590"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.812"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="12:57:15"
+						time="00:00.812"
+						level="Warn"
+						category="Data">
+						<message>
+							The following module variables are not bound to a data column:<br/>NewVariable
+						</message>
+						<metainfo
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.859"
+						timeRelativeToTestModuleStartTime="00:00.046"
+						timeWallClock="12:57:15"
+						time="00:00.859"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Program Files (x86)\Ranorex 8.2\Samples\Desktop\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe' with arguments '' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="95"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.187"
+						timeRelativeToTestModuleStartTime="00:00.375"
+						timeWallClock="12:57:15"
+						time="00:01.187"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeyPromptForm.Text' at 19;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+							itempath="?/?/text[@accessiblerole='Text']"
+							fullname="MyFirstTestProjectRepository.KeyPromptForm.Text"
+							id="93235ceafc034f17ab9ee68a0fc05916"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="99"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.844"
+						timeRelativeToTestModuleStartTime="00:03.031"
+						timeWallClock="12:57:18"
+						time="00:03.844"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'rx' with focus on 'KeyPromptForm.Text'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='KeyPromptForm']/?/?/text[@accessiblerole='Text']"
+							itempath="?/?/text[@accessiblerole='Text']"
+							fullname="MyFirstTestProjectRepository.KeyPromptForm.Text"
+							id="93235ceafc034f17ab9ee68a0fc05916"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="103"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.500"
+						timeRelativeToTestModuleStartTime="00:03.687"
+						timeWallClock="12:57:18"
+						time="00:04.500"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeyPromptForm.MBtnOK' at 43;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']"
+							itempath="button[@controlname='m_btnOK']"
+							fullname="MyFirstTestProjectRepository.KeyPromptForm.MBtnOK"
+							id="98625ce7fc63405a917c0ec3aa539773"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="107"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.313"
+						timeRelativeToTestModuleStartTime="00:04.500"
+						timeWallClock="12:57:19"
+						time="00:05.313"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MainForm.Edit' at 30;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='Edit']"
+							itempath="?/?/menuitem[@accessiblename='Edit']"
+							fullname="MyFirstTestProjectRepository.MainForm.Edit"
+							id="55bda60667df4872bdfc32df43f32521"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="111"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.610"
+						timeRelativeToTestModuleStartTime="00:05.797"
+						timeWallClock="12:57:20"
+						time="00:06.610"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeePass.AddEntry' at 36;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Add Entry...']"
+							itempath="menuitem[@accessiblename='Add Entry...']"
+							fullname="MyFirstTestProjectRepository.KeePass.AddEntry"
+							id="58f4ba9399c44d5db88a650097bd3b15"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="115"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.469"
+						timeRelativeToTestModuleStartTime="00:06.657"
+						timeWallClock="12:57:21"
+						time="00:07.469"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MTabEntry1.Text' at 34;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbTitle']/text[@accessiblerole='Text']"
+							itempath="text[@controlname='m_tbTitle']/text[@accessiblerole='Text']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MTabEntry1.Text"
+							id="71966dcf17ba4050a24e044eb3f5b620"
+							timeout="90000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="119"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.547"
+						timeRelativeToTestModuleStartTime="00:07.735"
+						timeWallClock="12:57:22"
+						time="00:08.547"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'KeyPassDemo' with focus on 'PwEntryForm.MTabEntry1.Text'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbTitle']/text[@accessiblerole='Text']"
+							itempath="text[@controlname='m_tbTitle']/text[@accessiblerole='Text']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MTabEntry1.Text"
+							id="71966dcf17ba4050a24e044eb3f5b620"
+							timeout="90000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="123"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.188"
+						timeRelativeToTestModuleStartTime="00:09.376"
+						timeWallClock="12:57:24"
+						time="00:10.188"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MTabEntry1.MBtnIcon' at 13;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/button[@controlname='m_btnIcon']"
+							itempath="button[@controlname='m_btnIcon']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MTabEntry1.MBtnIcon"
+							id="84385695110c4f7cbcdf533a98ea784f"
+							timeout="90000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="127"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.173"
+						timeRelativeToTestModuleStartTime="00:10.360"
+						timeWallClock="12:57:25"
+						time="00:11.173"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'IconPickerForm.ListItem1' at 6;4.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='IconPickerForm']/list[@controlname='m_lvIcons']/listitem[@text='1']"
+							itempath="list[@controlname='m_lvIcons']/listitem[@text='1']"
+							fullname="MyFirstTestProjectRepository.IconPickerForm.ListItem1"
+							id="bedb2758e6a94bb19d7f75945300a9d1"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="131"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.048"
+						timeRelativeToTestModuleStartTime="00:11.235"
+						timeWallClock="12:57:26"
+						time="00:12.048"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'IconPickerForm.MBtnOK' at 26;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='IconPickerForm']/button[@controlname='m_btnOK']"
+							itempath="button[@controlname='m_btnOK']"
+							fullname="MyFirstTestProjectRepository.IconPickerForm.MBtnOK"
+							id="7fdbc5f39b9f4f51bdeec17451abb382"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="135"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.860"
+						timeRelativeToTestModuleStartTime="00:12.048"
+						timeWallClock="12:57:27"
+						time="00:12.860"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MTabEntry1.UserName' at 28;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='User name:']"
+							itempath="?/?/text[@accessiblename='User name:']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MTabEntry1.UserName"
+							id="4d9a323119ee4627a7e6cc0d0e885b45"
+							timeout="90000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="139"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.204"
+						timeRelativeToTestModuleStartTime="00:13.392"
+						timeWallClock="12:57:28"
+						time="00:14.204"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'KeyPassDemo' with focus on 'PwEntryForm.MTabEntry1.UserName'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='User name:']"
+							itempath="?/?/text[@accessiblename='User name:']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MTabEntry1.UserName"
+							id="4d9a323119ee4627a7e6cc0d0e885b45"
+							timeout="90000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="143"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.189"
+						timeRelativeToTestModuleStartTime="00:15.376"
+						timeWallClock="12:57:30"
+						time="00:16.189"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MTabEntry1.Password' at 158;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Password:']"
+							itempath="?/?/text[@accessiblename='Password:']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MTabEntry1.Password"
+							id="dbaf36143ee844d992a16cb2ed16a9d2"
+							timeout="90000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="147"
+							itemindex="13"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.533"
+						timeRelativeToTestModuleStartTime="00:16.720"
+						timeWallClock="12:57:31"
+						time="00:17.533"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'Demo123' with focus on 'PwEntryForm.MTabEntry1.Password'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Password:']"
+							itempath="?/?/text[@accessiblename='Password:']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MTabEntry1.Password"
+							id="dbaf36143ee844d992a16cb2ed16a9d2"
+							timeout="90000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="151"
+							itemindex="14"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.080"
+						timeRelativeToTestModuleStartTime="00:18.267"
+						timeWallClock="12:57:33"
+						time="00:19.080"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MTabEntry1.Repeat' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Repeat:']"
+							itempath="?/?/text[@accessiblename='Repeat:']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MTabEntry1.Repeat"
+							id="b6444985fe2e43bd82808c0132122182"
+							timeout="90000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="155"
+							itemindex="15"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.424"
+						timeRelativeToTestModuleStartTime="00:19.611"
+						timeWallClock="12:57:34"
+						time="00:20.424"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'Demo123' with focus on 'PwEntryForm.MTabEntry1.Repeat'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='Repeat:']"
+							itempath="?/?/text[@accessiblename='Repeat:']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MTabEntry1.Repeat"
+							id="b6444985fe2e43bd82808c0132122182"
+							timeout="90000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="159"
+							itemindex="16"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.955"
+						timeRelativeToTestModuleStartTime="00:21.143"
+						timeWallClock="12:57:36"
+						time="00:21.955"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MTabEntry1.URL' at 15;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/?/?/text[@accessiblename='URL:']"
+							itempath="?/?/text[@accessiblename='URL:']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MTabEntry1.URL"
+							id="98e4673e0b7048678d1186b54fc80b35"
+							timeout="90000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="163"
+							itemindex="17"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.315"
+						timeRelativeToTestModuleStartTime="00:22.502"
+						timeWallClock="12:57:37"
+						time="00:23.315"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'http://bitly.com/wp demo'.
+						</message>
+						<metainfo
+							itemindex="18"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="167"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.096"
+						timeRelativeToTestModuleStartTime="00:25.284"
+						timeWallClock="12:57:40"
+						time="00:26.096"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left DoubleClick item 'PwEntryForm.MTabEntry1.MBtnStandardExpires' at 19;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']/button[@controlname='m_btnStandardExpires']"
+							itempath="button[@controlname='m_btnStandardExpires']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MTabEntry1.MBtnStandardExpires"
+							id="b6fc3a48c9404ffd961c4351b408620a"
+							timeout="90000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="171"
+							itemindex="19"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.237"
+						timeRelativeToTestModuleStartTime="00:26.424"
+						timeWallClock="12:57:41"
+						time="00:27.237"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeePass.MenuItem1Year' at 35;1.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='1 Year']"
+							itempath="menuitem[@accessiblename='1 Year']"
+							fullname="MyFirstTestProjectRepository.KeePass.MenuItem1Year"
+							id="1ac9803aeaf3426e8b3ce9a8339168c9"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="175"
+							itemindex="20"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.065"
+						timeRelativeToTestModuleStartTime="00:27.253"
+						timeWallClock="12:57:42"
+						time="00:28.065"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'PwEntryForm.MBtnOK' at 22;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='PwEntryForm']/button[@controlname='m_btnOK']"
+							itempath="button[@controlname='m_btnOK']"
+							fullname="MyFirstTestProjectRepository.PwEntryForm.MBtnOK"
+							id="3ad796b7fd2146d6b973b2c2d87e9957"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="179"
+							itemindex="21"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.847"
+						timeRelativeToTestModuleStartTime="00:28.034"
+						timeWallClock="12:57:43"
+						time="00:28.847"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Text='KeyPassDemo') on item 'MainForm.KeyPassDemo'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/table[@controlname='m_lvEntries']/?/?/cell[@columnindex='0']"
+							itempath="container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/table[@controlname='m_lvEntries']/?/?/cell[@columnindex='0']"
+							fullname="MyFirstTestProjectRepository.MainForm.KeyPassDemo"
+							id="46da46457ef34ca6ad16bd55a2cdb5ef"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="183"
+							itemindex="22"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.190"
+						timeRelativeToTestModuleStartTime="00:28.378"
+						timeWallClock="12:57:43"
+						time="00:29.190"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Text' of element for item 'MyFirstTestProjectRepository.MainForm.KeyPassDemo' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/table[@controlname='m_lvEntries']/?/?/cell[@columnindex='0']"
+							itempath="container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/table[@controlname='m_lvEntries']/?/?/cell[@columnindex='0']"
+							fullname="MyFirstTestProjectRepository.MainForm.KeyPassDemo"
+							id="46da46457ef34ca6ad16bd55a2cdb5ef"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="184"
+							loglvl="Success"
+							itemindex="22">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.347"
+						timeRelativeToTestModuleStartTime="00:28.534"
+						timeWallClock="12:57:43"
+						time="00:29.347"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Right Click item 'MainForm.KeyPassDemo' at 50;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/table[@controlname='m_lvEntries']/?/?/cell[@columnindex='0']"
+							itempath="container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/table[@controlname='m_lvEntries']/?/?/cell[@columnindex='0']"
+							fullname="MyFirstTestProjectRepository.MainForm.KeyPassDemo"
+							id="46da46457ef34ca6ad16bd55a2cdb5ef"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="187"
+							itemindex="23"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.425"
+						timeRelativeToTestModuleStartTime="00:29.612"
+						timeWallClock="12:57:44"
+						time="00:30.425"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeePass.DeleteEntry' at 61;2.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Delete Entry']"
+							itempath="menuitem[@accessiblename='Delete Entry']"
+							fullname="MyFirstTestProjectRepository.KeePass.DeleteEntry"
+							id="d8f21a7bd5104594a75084aa6e9be3a6"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="191"
+							itemindex="24"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.284"
+						timeRelativeToTestModuleStartTime="00:30.472"
+						timeWallClock="12:57:45"
+						time="00:31.284"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MainForm.Close' at 29;23.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']"
+							itempath="?/?/button[@accessiblename='Close']"
+							fullname="MyFirstTestProjectRepository.MainForm.Close"
+							id="992f35e1d7ac4d7d83f0353d48259686"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="195"
+							itemindex="25"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.441"
+						timeRelativeToTestModuleStartTime="00:31.628"
+						timeWallClock="12:57:46"
+						time="00:32.441"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'KeePass1.ButtonDiscardChanges' at 127;40.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='KeePass' and @processname='KeePass']/?/?/element[@instance='1']/button[@text='&amp;Discard changes']"
+							itempath="?/?/element[@instance='1']/button[@text='&amp;Discard changes']"
+							fullname="MyFirstTestProjectRepository.KeePass1.ButtonDiscardChanges"
+							id="040694aea863428cb14f641d2354b4c8"
+							timeout="60000"
+							codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\Recording1.cs"
+							codeline="199"
+							itemindex="26"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

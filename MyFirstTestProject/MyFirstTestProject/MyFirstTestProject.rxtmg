@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.2">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<testmodule
+			id="32ceab2c-75ec-48a6-a8f4-db667c7346da"
+			name="KeyPassLoginModule"
+			ref="bfd232ec-6106-491e-8577-07a093ed659b"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="57f1a902-2f1b-42b7-b627-a037e80bf498"
+			name="StartKeyPassApplication"
+			ref="16d27364-03da-427c-99e5-a3157d902720"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="9f3162b5-f9de-44c9-8847-b701460bd333"
+			name="ApllicationStartAnd_Login">
+				<groupvariables>
+					<groupvariable
+					defaultvalue="C:\Program Files (x86)\Ranorex 8.2\Samples\Desktop\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe"
+					id="5614d6aa-0506-46c1-950e-3abed2ee72fe"
+					name="ModuleGroupGlobalExicutionPath">
+						<modulevariable
+						moduleref="32ceab2c-75ec-48a6-a8f4-db667c7346da"
+						name="ExicutablePath_START_SUT"
+						variableref="aaa86f74-75b6-4597-a791-4320a551f25b">
+						</modulevariable>
+					</groupvariable>
+				</groupvariables>
+			</modulegroupdef>
+			<modulegroups
+			id="cf451f52-49d3-4fd1-8562-f9d26d7fce00"
+			name="MyFirstTestProject">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="cf451f52-49d3-4fd1-8562-f9d26d7fce00"
+			name="MyFirstTestProject">
+				<modulegroupdef
+				id="9f3162b5-f9de-44c9-8847-b701460bd333"
+				name="ApllicationStartAnd_Login">
+					<testmodule
+					id="57f1a902-2f1b-42b7-b627-a037e80bf498"
+					name="StartKeyPassApplication">
+					</testmodule>
+					<testmodule
+					id="32ceab2c-75ec-48a6-a8f4-db667c7346da"
+					name="KeyPassLoginModule">
+					</testmodule>
+				</modulegroupdef>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

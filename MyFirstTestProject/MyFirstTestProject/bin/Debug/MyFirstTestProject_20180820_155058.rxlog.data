@@ -1,0 +1,1350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="307cc980cb491aed"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="2"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="gg5bpd"
+		rxversion="8.2.1.0"
+		host="PNI6W2488"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="8/20/2018 3:50:58 PM"
+		timestampiso="2018-08-20T10:20:58"
+		endtime="8/20/2018 3:51:32 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="34.38s"
+			durationms="34381"
+			type="test-suite"
+			rid="9bb24d50f4d3a45"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="2"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyFirstTestProject"
+			headertext="MyFirstTestProject"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="GlobalExicutionPath">
+					C:\Program Files (x86)\Ranorex 8.2\Samples\Desktop\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe
+				</param>
+			</params>
+			<activity
+				result="Success"
+				duration="33.74s"
+				durationms="33740"
+				type="iteration-container"
+				rid="4747da179adb3c4"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="2"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="DemoUserCode"
+				headertext="DemoUserCode"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="39f42f23-9abd-41a9-9f93-7d719dad14df"
+				datasource="NewConnector2"
+				dataiterationcount="2">
+				<activity
+					result="Success"
+					duration="17.4s"
+					durationms="17400"
+					type="test-case"
+					rid="dfa935d593f4d90"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="DemoUserCode"
+					testcontainerid="39f42f23-9abd-41a9-9f93-7d719dad14df"
+					headertext="DemoUserCode"
+					displayName="DemoUserCode"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Tile">
+							KeyPass1
+						</field>
+						<field
+							name="UserName">
+							Akshar Chhowala
+						</field>
+						<field
+							name="Password">
+							Demo123
+						</field>
+						<field
+							name="Expires">
+							1 Month
+						</field>
+						<field
+							name="URL">
+							http://googe.com
+						</field>
+						<field
+							name="Version">
+							2.20.1
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="17.38s"
+						durationms="17376"
+						type="test-module"
+						rid="b11d22aea84b7b8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="LogIn"
+						displayName="LogIn"
+						moduleid="cc0ab905-a10d-4cc0-b67e-c1eb9342ac9c"
+						moduletype="UserCode"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="stringFilePath"
+								value="C:\Program Files (x86)\Ranorex 8.2\Samples\Desktop\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe">
+							</varbinding>
+							<varbinding
+								name="strTitle"
+								value="KeyPass1">
+							</varbinding>
+							<varbinding
+								name="strUserName"
+								value="Akshar Chhowala">
+							</varbinding>
+							<varbinding
+								name="strPassword"
+								value="Demo123">
+							</varbinding>
+							<varbinding
+								name="strURL"
+								value="http://googe.com">
+							</varbinding>
+							<varbinding
+								name="strExpires"
+								value="1 Month">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.001"
+							timeRelativeToTestModuleStartTime="00:00.056"
+							timeWallClock="15:50:59"
+							time="00:01.001"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$stringFilePath = 'C:\Program Files (x86)\Ranorex 8.2\Samples\Desktop\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe', $strTitle = 'KeyPass1', $strUserName = 'Akshar Chhowala', $strPassword = 'Demo123', $strURL = 'http://googe.com', $strExpires = '1 Month'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.512"
+							timeRelativeToTestModuleStartTime="00:02.566"
+							timeWallClock="15:51:01"
+							time="00:03.512"
+							level="Success"
+							category="User">
+							<message>
+								rx has been entered in text area  .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.603"
+							timeRelativeToTestModuleStartTime="00:02.658"
+							timeWallClock="15:51:01"
+							time="00:03.603"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_18acf2ca_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_18acf2ca_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.671"
+							timeRelativeToTestModuleStartTime="00:02.726"
+							timeWallClock="15:51:02"
+							time="00:03.671"
+							level="Success"
+							category="User">
+							<message>
+								is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.771"
+							timeRelativeToTestModuleStartTime="00:02.825"
+							timeWallClock="15:51:02"
+							time="00:03.771"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_a411f2ca_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_a411f2ca_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.952"
+							timeRelativeToTestModuleStartTime="00:04.006"
+							timeWallClock="15:51:03"
+							time="00:04.952"
+							level="Success"
+							category="User">
+							<message>
+								Editis clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.039"
+							timeRelativeToTestModuleStartTime="00:04.093"
+							timeWallClock="15:51:03"
+							time="00:05.039"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_1e2f2ca_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_1e2f2ca_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.643"
+							timeRelativeToTestModuleStartTime="00:04.697"
+							timeWallClock="15:51:03"
+							time="00:05.643"
+							level="Success"
+							category="User">
+							<message>
+								Add Entry...is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.738"
+							timeRelativeToTestModuleStartTime="00:04.792"
+							timeWallClock="15:51:04"
+							time="00:05.738"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_8d47f2ca_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_8d47f2ca_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.755"
+							timeRelativeToTestModuleStartTime="00:05.810"
+							timeWallClock="15:51:05"
+							time="00:06.755"
+							level="Success"
+							category="User">
+							<message>
+								KeyPass1 has been entered in text area  .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.854"
+							timeRelativeToTestModuleStartTime="00:05.908"
+							timeWallClock="15:51:05"
+							time="00:06.854"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_4640f2ca_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_4640f2ca_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.090"
+							timeRelativeToTestModuleStartTime="00:06.145"
+							timeWallClock="15:51:05"
+							time="00:07.090"
+							level="Success"
+							category="User">
+							<message>
+								is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.189"
+							timeRelativeToTestModuleStartTime="00:06.243"
+							timeWallClock="15:51:05"
+							time="00:07.189"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_d1a5f2ca_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_d1a5f2ca_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.844"
+							timeRelativeToTestModuleStartTime="00:06.899"
+							timeWallClock="15:51:06"
+							time="00:07.844"
+							level="Success"
+							category="User">
+							<message>
+								Icon Picker Selected from list.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="41"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.938"
+							timeRelativeToTestModuleStartTime="00:06.992"
+							timeWallClock="15:51:06"
+							time="00:07.938"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_2f76f2ca_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_2f76f2ca_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="42"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.991"
+							timeRelativeToTestModuleStartTime="00:07.045"
+							timeWallClock="15:51:06"
+							time="00:07.991"
+							level="Success"
+							category="User">
+							<message>
+								is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.089"
+							timeRelativeToTestModuleStartTime="00:07.144"
+							timeWallClock="15:51:06"
+							time="00:08.089"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_badbf2ca_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_badbf2ca_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.134"
+							timeRelativeToTestModuleStartTime="00:08.188"
+							timeWallClock="15:51:07"
+							time="00:09.134"
+							level="Success"
+							category="User">
+							<message>
+								Akshar Chhowala has been entered in text area User name: .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.222"
+							timeRelativeToTestModuleStartTime="00:08.277"
+							timeWallClock="15:51:07"
+							time="00:09.222"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_73d4f2ca_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_73d4f2ca_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.802"
+							timeRelativeToTestModuleStartTime="00:08.856"
+							timeWallClock="15:51:08"
+							time="00:09.802"
+							level="Success"
+							category="User">
+							<message>
+								Demo123 has been entered in text area Password: .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.889"
+							timeRelativeToTestModuleStartTime="00:08.943"
+							timeWallClock="15:51:08"
+							time="00:09.889"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_ff39f2ca_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_ff39f2ca_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.498"
+							timeRelativeToTestModuleStartTime="00:09.553"
+							timeWallClock="15:51:08"
+							time="00:10.498"
+							level="Success"
+							category="User">
+							<message>
+								Demo123 has been entered in text area Repeat: .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.588"
+							timeRelativeToTestModuleStartTime="00:09.642"
+							timeWallClock="15:51:08"
+							time="00:10.588"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_56ee942_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_56ee942_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.175"
+							timeRelativeToTestModuleStartTime="00:10.230"
+							timeWallClock="15:51:09"
+							time="00:11.175"
+							level="Success"
+							category="User">
+							<message>
+								http://googe.com has been entered in text area URL: .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.272"
+							timeRelativeToTestModuleStartTime="00:10.327"
+							timeWallClock="15:51:09"
+							time="00:11.272"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_56ee941_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_56ee941_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.508"
+							timeRelativeToTestModuleStartTime="00:10.563"
+							timeWallClock="15:51:09"
+							time="00:11.508"
+							level="Success"
+							category="User">
+							<message>
+								is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.605"
+							timeRelativeToTestModuleStartTime="00:10.660"
+							timeWallClock="15:51:09"
+							time="00:11.605"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_56ee940_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_56ee940_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.197"
+							timeRelativeToTestModuleStartTime="00:11.251"
+							timeWallClock="15:51:10"
+							time="00:12.197"
+							level="Success"
+							category="User">
+							<message>
+								1 Monthis clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.289"
+							timeRelativeToTestModuleStartTime="00:11.344"
+							timeWallClock="15:51:10"
+							time="00:12.289"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_56ee93f_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_56ee93f_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.775"
+							timeRelativeToTestModuleStartTime="00:11.830"
+							timeWallClock="15:51:11"
+							time="00:12.775"
+							level="Success"
+							category="User">
+							<message>
+								is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.871"
+							timeRelativeToTestModuleStartTime="00:11.925"
+							timeWallClock="15:51:11"
+							time="00:12.871"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_56ee946_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_56ee946_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="16.33s"
+					durationms="16330"
+					type="test-case"
+					rid="cfc1d37d3f94520"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="DemoUserCode"
+					testcontainerid="39f42f23-9abd-41a9-9f93-7d719dad14df"
+					headertext="DemoUserCode"
+					displayName="DemoUserCode"
+					iteration="2"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Tile">
+							KeyPass2
+						</field>
+						<field
+							name="UserName">
+							Dinesh Chhowala
+						</field>
+						<field
+							name="Password">
+							Demo123
+						</field>
+						<field
+							name="Expires">
+							3 Months
+						</field>
+						<field
+							name="URL">
+							http://facebook.com
+						</field>
+						<field
+							name="Version">
+							2.20.1
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="16.32s"
+						durationms="16324"
+						type="test-module"
+						rid="a1939e1697d9e7d"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="LogIn"
+						displayName="LogIn"
+						moduleid="cc0ab905-a10d-4cc0-b67e-c1eb9342ac9c"
+						moduletype="UserCode"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="stringFilePath"
+								value="C:\Program Files (x86)\Ranorex 8.2\Samples\Desktop\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe">
+							</varbinding>
+							<varbinding
+								name="strTitle"
+								value="KeyPass2">
+							</varbinding>
+							<varbinding
+								name="strUserName"
+								value="Dinesh Chhowala">
+							</varbinding>
+							<varbinding
+								name="strPassword"
+								value="Demo123">
+							</varbinding>
+							<varbinding
+								name="strURL"
+								value="http://facebook.com">
+							</varbinding>
+							<varbinding
+								name="strExpires"
+								value="3 Months">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.329"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="15:51:16"
+							time="00:18.329"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$stringFilePath = 'C:\Program Files (x86)\Ranorex 8.2\Samples\Desktop\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe', $strTitle = 'KeyPass2', $strUserName = 'Dinesh Chhowala', $strPassword = 'Demo123', $strURL = 'http://facebook.com', $strExpires = '3 Months'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.478"
+							timeRelativeToTestModuleStartTime="00:01.150"
+							timeWallClock="15:51:17"
+							time="00:19.478"
+							level="Success"
+							category="User">
+							<message>
+								rx has been entered in text area  .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.572"
+							timeRelativeToTestModuleStartTime="00:01.243"
+							timeWallClock="15:51:17"
+							time="00:19.572"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_56ee945_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_56ee945_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.639"
+							timeRelativeToTestModuleStartTime="00:01.310"
+							timeWallClock="15:51:17"
+							time="00:19.639"
+							level="Success"
+							category="User">
+							<message>
+								is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.737"
+							timeRelativeToTestModuleStartTime="00:01.408"
+							timeWallClock="15:51:18"
+							time="00:19.737"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_56ee944_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_56ee944_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.880"
+							timeRelativeToTestModuleStartTime="00:02.551"
+							timeWallClock="15:51:19"
+							time="00:20.880"
+							level="Success"
+							category="User">
+							<message>
+								Editis clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.971"
+							timeRelativeToTestModuleStartTime="00:02.643"
+							timeWallClock="15:51:19"
+							time="00:20.971"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_56ee943_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_56ee943_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.578"
+							timeRelativeToTestModuleStartTime="00:03.249"
+							timeWallClock="15:51:19"
+							time="00:21.578"
+							level="Success"
+							category="User">
+							<message>
+								Add Entry...is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.670"
+							timeRelativeToTestModuleStartTime="00:03.341"
+							timeWallClock="15:51:20"
+							time="00:21.670"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_56ee93a_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_56ee93a_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.892"
+							timeRelativeToTestModuleStartTime="00:04.564"
+							timeWallClock="15:51:21"
+							time="00:22.892"
+							level="Success"
+							category="User">
+							<message>
+								KeyPass2 has been entered in text area  .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.147"
+							timeRelativeToTestModuleStartTime="00:04.818"
+							timeWallClock="15:51:21"
+							time="00:23.147"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_56ee939_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_56ee939_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.481"
+							timeRelativeToTestModuleStartTime="00:05.152"
+							timeWallClock="15:51:21"
+							time="00:23.481"
+							level="Success"
+							category="User">
+							<message>
+								is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.570"
+							timeRelativeToTestModuleStartTime="00:05.241"
+							timeWallClock="15:51:21"
+							time="00:23.570"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_633fe942_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_633fe942_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.223"
+							timeRelativeToTestModuleStartTime="00:05.894"
+							timeWallClock="15:51:22"
+							time="00:24.223"
+							level="Success"
+							category="User">
+							<message>
+								Icon Picker Selected from list.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="41"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.323"
+							timeRelativeToTestModuleStartTime="00:05.994"
+							timeWallClock="15:51:22"
+							time="00:24.323"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_633fe941_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_633fe941_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="42"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.378"
+							timeRelativeToTestModuleStartTime="00:06.050"
+							timeWallClock="15:51:22"
+							time="00:24.378"
+							level="Success"
+							category="User">
+							<message>
+								is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.472"
+							timeRelativeToTestModuleStartTime="00:06.143"
+							timeWallClock="15:51:22"
+							time="00:24.472"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_633fe940_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_633fe940_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.500"
+							timeRelativeToTestModuleStartTime="00:07.172"
+							timeWallClock="15:51:23"
+							time="00:25.500"
+							level="Success"
+							category="User">
+							<message>
+								Dinesh Chhowala has been entered in text area User name: .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.589"
+							timeRelativeToTestModuleStartTime="00:07.260"
+							timeWallClock="15:51:23"
+							time="00:25.589"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_633fe93f_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_633fe93f_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.173"
+							timeRelativeToTestModuleStartTime="00:07.844"
+							timeWallClock="15:51:24"
+							time="00:26.173"
+							level="Success"
+							category="User">
+							<message>
+								Demo123 has been entered in text area Password: .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.270"
+							timeRelativeToTestModuleStartTime="00:07.942"
+							timeWallClock="15:51:24"
+							time="00:26.270"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_633fe946_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_633fe946_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.838"
+							timeRelativeToTestModuleStartTime="00:08.509"
+							timeWallClock="15:51:25"
+							time="00:26.838"
+							level="Success"
+							category="User">
+							<message>
+								Demo123 has been entered in text area Repeat: .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.937"
+							timeRelativeToTestModuleStartTime="00:08.608"
+							timeWallClock="15:51:25"
+							time="00:26.937"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_633fe945_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_633fe945_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:27.512"
+							timeRelativeToTestModuleStartTime="00:09.183"
+							timeWallClock="15:51:25"
+							time="00:27.512"
+							level="Success"
+							category="User">
+							<message>
+								http://facebook.com has been entered in text area URL: .
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="36"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:27.604"
+							timeRelativeToTestModuleStartTime="00:09.275"
+							timeWallClock="15:51:25"
+							time="00:27.604"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_633fe944_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_633fe944_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="37"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:27.841"
+							timeRelativeToTestModuleStartTime="00:09.512"
+							timeWallClock="15:51:26"
+							time="00:27.841"
+							level="Success"
+							category="User">
+							<message>
+								is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:27.938"
+							timeRelativeToTestModuleStartTime="00:09.609"
+							timeWallClock="15:51:26"
+							time="00:27.938"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_633fe943_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_633fe943_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.524"
+							timeRelativeToTestModuleStartTime="00:10.196"
+							timeWallClock="15:51:26"
+							time="00:28.524"
+							level="Success"
+							category="User">
+							<message>
+								3 Monthsis clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.621"
+							timeRelativeToTestModuleStartTime="00:10.292"
+							timeWallClock="15:51:26"
+							time="00:28.621"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_633fe93a_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_633fe93a_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:29.106"
+							timeRelativeToTestModuleStartTime="00:10.777"
+							timeWallClock="15:51:27"
+							time="00:29.106"
+							level="Success"
+							category="User">
+							<message>
+								is clicked.
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="29"
+								loglvl="Success">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:29.204"
+							timeRelativeToTestModuleStartTime="00:10.875"
+							timeWallClock="15:51:27"
+							time="00:29.204"
+							level="Info"
+							category="Screenshot"
+							errimg="images_MyFirstT_5244bcd1\MyFirstT_633fe939_rxlog.jpg"
+							errthumb="images_MyFirstT_5244bcd1\MyFirstT_633fe939_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								codefile="d:\Akshar Chhowala\Ranorex Test Project\MyFirstTestProject\MyFirstTestProject\CommonFunctions.cs"
+								codeline="30"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

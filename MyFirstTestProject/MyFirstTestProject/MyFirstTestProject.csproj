@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{5920741F-5C5A-4AC1-AE98-C0BF76FA2735}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyFirstTestProject</RootNamespace>
+    <AssemblyName>MyFirstTestProject</AssemblyName>
+    <RanorexVersion>8.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>6bf47f8a-30fb-40af-99cc-04eb85834076</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>bf0776da-3b80-4876-b849-f376ac21f4aa</id>
+    </Compile>
+    <Compile Include="CommonFunctions.cs">
+      <id>a8a403e1-875a-4a84-9fab-b5f8b6f0d74d</id>
+    </Compile>
+    <Compile Include="KeyPassAddNewEntry.cs">
+      <BoundTo>80109711-bc6d-41f7-8ee5-89dd19b98fb7</BoundTo>
+      <DependentUpon>KeyPassAddNewEntry.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8d463cde-c8bc-4b74-ac40-8d065fea4886</id>
+    </Compile>
+    <Compile Include="KeyPassAddNewEntry.UserCode.cs">
+      <BoundTo>80109711-bc6d-41f7-8ee5-89dd19b98fb7</BoundTo>
+      <DependentUpon>KeyPassAddNewEntry.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>af6f9337-d8c2-4b01-9bfe-cdc37b07ae82</id>
+    </Compile>
+    <Compile Include="KeyPassCloseApplication.cs">
+      <BoundTo>ba070b35-9676-4468-b5ad-050196045453</BoundTo>
+      <DependentUpon>KeyPassCloseApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7e8560ec-279b-4db6-9078-6d21ee118af2</id>
+    </Compile>
+    <Compile Include="KeyPassCloseApplication.UserCode.cs">
+      <BoundTo>ba070b35-9676-4468-b5ad-050196045453</BoundTo>
+      <DependentUpon>KeyPassCloseApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9283837b-2567-4fe1-aa9f-5436f66b64ba</id>
+    </Compile>
+    <Compile Include="KeyPassDeleteEntry.cs">
+      <BoundTo>0c50c6cd-8182-4e98-a163-970110b95414</BoundTo>
+      <DependentUpon>KeyPassDeleteEntry.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7711693b-623a-49a2-8606-24342bca3f26</id>
+    </Compile>
+    <Compile Include="KeyPassDeleteEntry.UserCode.cs">
+      <BoundTo>0c50c6cd-8182-4e98-a163-970110b95414</BoundTo>
+      <DependentUpon>KeyPassDeleteEntry.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f3567b9c-5308-43ba-9187-3dc800e35463</id>
+    </Compile>
+    <Compile Include="KeyPassLoginModule.cs">
+      <BoundTo>042800b8-4bda-4e6b-9d85-120f02839449</BoundTo>
+      <DependentUpon>KeyPassLoginModule.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c4585823-f171-42fe-9bd9-99b9d812ca4e</id>
+    </Compile>
+    <Compile Include="KeyPassLoginModule.UserCode.cs">
+      <BoundTo>042800b8-4bda-4e6b-9d85-120f02839449</BoundTo>
+      <DependentUpon>KeyPassLoginModule.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>81883b0e-b8e2-407a-8b4a-8d5e49a6f60b</id>
+    </Compile>
+    <Compile Include="KeyPassValidateEntry.cs">
+      <BoundTo>d0c77d8b-ba42-458b-96d5-a74983235d70</BoundTo>
+      <DependentUpon>KeyPassValidateEntry.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3aa68c60-60a7-45ec-8597-11dbd8bc5c82</id>
+    </Compile>
+    <Compile Include="KeyPassValidateEntry.UserCode.cs">
+      <BoundTo>d0c77d8b-ba42-458b-96d5-a74983235d70</BoundTo>
+      <DependentUpon>KeyPassValidateEntry.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>844c5c82-81a8-4c0f-81f3-94795ff903b2</id>
+    </Compile>
+    <Compile Include="KeyPassVersionValidate.cs">
+      <BoundTo>9895f74b-858c-4043-a359-66c317466008</BoundTo>
+      <DependentUpon>KeyPassVersionValidate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c58bb99c-c015-4670-961b-2b3085004c07</id>
+    </Compile>
+    <Compile Include="KeyPassVersionValidate.UserCode.cs">
+      <BoundTo>9895f74b-858c-4043-a359-66c317466008</BoundTo>
+      <DependentUpon>KeyPassVersionValidate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5b22b994-febc-408a-b6d1-5c476e84da6e</id>
+    </Compile>
+    <Compile Include="MyFirstTestProjectRepository.cs">
+      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
+      <DependentUpon>MyFirstTestProjectRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>7dc46a86-ee7c-469f-be5f-ca028a7a0ef6</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>ceebcb6a-880d-48fb-ae01-9d0a372c02d1</id>
+    </Compile>
+    <Compile Include="StartKeyPassApplication.cs">
+      <BoundTo>72e0a40d-c8bc-4764-8e71-8cc06372c9ef</BoundTo>
+      <DependentUpon>StartKeyPassApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9f5966bb-dea9-4742-b05a-44461fbb4894</id>
+    </Compile>
+    <Compile Include="StartKeyPassApplication.UserCode.cs">
+      <BoundTo>72e0a40d-c8bc-4764-8e71-8cc06372c9ef</BoundTo>
+      <DependentUpon>StartKeyPassApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0de0444a-2ea2-4d53-a224-7a710b356019</id>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <id>091f40ff-a84a-4c40-bcb6-ef42bc48a160</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>494c02d4-daf3-4925-a6d9-c7797dc3bbe8</id>
+    </None>
+    <None Include="KeyPassAddNewEntry.rxrec">
+      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
+      <id>80109711-bc6d-41f7-8ee5-89dd19b98fb7</id>
+      <recordtableid>832b87ce-2869-4b61-a8ca-aafb37d94885</recordtableid>
+    </None>
+    <None Include="KeyPassCloseApplication.rxrec">
+      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
+      <id>ba070b35-9676-4468-b5ad-050196045453</id>
+      <recordtableid>701dd53d-e994-43e6-9f6f-b91ddb76619e</recordtableid>
+    </None>
+    <None Include="KeyPassDeleteEntry.rxrec">
+      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
+      <id>0c50c6cd-8182-4e98-a163-970110b95414</id>
+      <recordtableid>d6e1348a-f536-460c-b274-30802d62e900</recordtableid>
+    </None>
+    <None Include="KeyPassLoginModule.rxrec">
+      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
+      <id>042800b8-4bda-4e6b-9d85-120f02839449</id>
+      <recordtableid>bfd232ec-6106-491e-8577-07a093ed659b</recordtableid>
+    </None>
+    <None Include="KeyPassValidateEntry.rxrec">
+      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
+      <id>d0c77d8b-ba42-458b-96d5-a74983235d70</id>
+      <recordtableid>41817111-b91f-4138-9837-15d65769003d</recordtableid>
+    </None>
+    <None Include="KeyPassVersionValidate.rxrec">
+      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
+      <id>9895f74b-858c-4043-a359-66c317466008</id>
+      <recordtableid>68a09609-7801-4059-a916-cdf62082487b</recordtableid>
+    </None>
+    <None Include="MyFirstTestProjectRepository.rximg">
+      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
+      <DependentUpon>MyFirstTestProjectRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>75026a48-88ff-4e95-8ed8-58fdfd848d28</id>
+    </None>
+    <None Include="MyFirstTestProjectRepository.rxrep">
+      <id>6bf47f8a-30fb-40af-99cc-04eb85834076</id>
+      <repoid>3d47d2b9-c3d9-4f36-ab0e-f6a0d938f243</repoid>
+      <reporootid>f7bc0049-88e2-4852-88d2-fcf38eb3b04b</reporootid>
+    </None>
+    <None Include="StartKeyPassApplication.rxrec">
+      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
+      <id>72e0a40d-c8bc-4764-8e71-8cc06372c9ef</id>
+      <recordtableid>16d27364-03da-427c-99e5-a3157d902720</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MyFirstTestProject.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>2ccdbfff-91a6-41a0-98ed-21d98082b7c1</id>
+    </Content>
+    <Content Include="MyFirstTestProject.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>23caa898-14aa-4577-92f1-463452e0e0a9</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>6c51bd69-23c0-4c49-8cb8-5bb7968f3f4c</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>35c7d775-f91c-4e42-be8b-a050aec47631</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0b50425d-69c8-46b0-a9c7-a18bcd63dffc</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9f129533-522c-4e70-9031-ae9d9000e620</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>d43d112e-f47c-4682-a065-c5d601d37c6d</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewCustomTemplate1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>5981e29a-b008-47e7-b1e0-ad1a2f6ef454</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

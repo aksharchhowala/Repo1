@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="701dd53d-e994-43e6-9f6f-b91ddb76619e"
+mode="Desktop"
+rxversion="8.2">
+	<name>
+		KeyPassCloseApplication
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="KeyPassCloseApplication"
+	namespace="MyFirstTestProject">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="KeyPassCloseApplication"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="MergedUserCodeMethod"
+		namespace="MyFirstTestProject"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="2b72abfa-179e-4c5a-926f-7ca31a5dd452">
+				<argument
+				argname="buttonInfo"
+				id="a957b45e-e659-4268-a0e1-c7de1176e607">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="992f35e1-d7ac-4d7d-83f0-353d48259686"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@controlname='MainForm']/?/?/button[@accessiblename='Close']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="buttonInfo1"
+				id="93d40b17-20d6-467a-9b72-0803a789b02b">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="040694ae-a863-428c-b14f-641d2354b4c8"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title='KeePass' and @processname='KeePass']/?/?/element[@instance='1']/button[@text='&amp;Discard changes']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="3d47d2b9-c3d9-4f36-ab0e-f6a0d938f243"
+	name="MyFirstTestProjectRepository"
+	relativepath="MyFirstTestProjectRepository.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="MyFirstTestProjectRepository"
+		namespace="MyFirstTestProject">
+		</codegen>
+		<rootfolder
+		id="f7bc0049-88e2-4852-88d2-fcf38eb3b04b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		KeyPassCloseApplication.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

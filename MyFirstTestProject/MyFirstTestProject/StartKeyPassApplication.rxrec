@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="16d27364-03da-427c-99e5-a3157d902720"
+mode="Desktop"
+rxversion="8.2">
+	<name>
+		StartKeyPassApplication
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartKeyPassApplication"
+	namespace="MyFirstTestProject">
+	</codegen>
+	<variables>
+		<var
+		id="31fce9a5-fe16-4b36-b037-8cbee20722df"
+		name="ExicutablePath_START_SUT">
+			C:\Program Files (x86)\Ranorex 8.2\Samples\Desktop\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="FileName"
+				variable="ExicutablePath_START_SUT">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files (x86)\Ranorex 8.2\Samples\Desktop\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe
+			</filename>
+			<workingdir>
+				C:\Program Files (x86)\Ranorex 8.2\Samples\Desktop\KeePass Sample\KeePassTestSuite\KeePass
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="3d47d2b9-c3d9-4f36-ab0e-f6a0d938f243"
+	name="MyFirstTestProjectRepository"
+	relativepath="MyFirstTestProjectRepository.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="MyFirstTestProjectRepository"
+		namespace="MyFirstTestProject">
+		</codegen>
+		<rootfolder
+		id="f7bc0049-88e2-4852-88d2-fcf38eb3b04b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartKeyPassApplication.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
