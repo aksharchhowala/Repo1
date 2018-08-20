@@ -26,14 +26,14 @@ namespace MyFirstTestProject
     /// Description of UserCodeModule1.
     /// </summary>
     [TestModule("CC0AB905-A10D-4CC0-B67E-C1EB9342AC9C", ModuleType.UserCode, 1)]
-    public class LogIn : CommonFunctions,ITestModule
+    public class AddDeleteEntery : CommonFunctions,ITestModule
     {
     	
     	MyFirstTestProjectRepository repo = MyFirstTestProjectRepository.Instance;
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public LogIn()
+        public AddDeleteEntery()
         {
             // Do not delete - a parameterless constructor is required!
         }

@@ -129,7 +129,7 @@
     <Compile Include="Program.cs">
       <id>ceebcb6a-880d-48fb-ae01-9d0a372c02d1</id>
     </Compile>
-    <Compile Include="LogIn.cs">
+    <Compile Include="AddDeleteEntery.cs">
       <id>091f40ff-a84a-4c40-bcb6-ef42bc48a160</id>
     </Compile>
   </ItemGroup>
