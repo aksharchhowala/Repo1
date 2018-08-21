@@ -1,0 +1,137 @@
+﻿<repository
+id="5c0d094c-f8d5-4981-ba3b-d825668c2348"
+name="JenKinsRepoItem"
+rxversion="8.2">
+	<codegen
+	classname="JenKinsRepoItem"
+	namespace="MyFirstTestProject">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="68081677-099e-48cb-b9ce-85a468908c6f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="965993e0-419e-4ebc-a66f-99428c899001"
+		isrooted="True"
+		name="Jenkins"
+		refpath="/dom[@domain='localhost:8080']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9804359b-5b0c-4a7d-a3b4-bb412e21ed2b"
+			name="txt_JUsername"
+			refimgid="2fa3fdf9-735b-4b16-845a-5ade556a1d63"
+			refpath="/dom[@domain='localhost:8080']//input[#'j_username']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8080']//input[#'j_username']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="496905a4-b380-4134-b696-43238fd440c8"
+			name="txt_JPassword"
+			refimgid="6e608d14-095b-41b7-9dd0-cf138fd10ca9"
+			refpath="/dom[@domain='localhost:8080']//div[#'main-panel']/div/form[@name='login']/table/tbody/tr[2]/td[2]/input[@name='j_password']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8080']//div[#'main-panel']/?/?/form[@name='login']/table//input[@name='j_password']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="f4d4efe0-fbe9-479a-9e0b-431505d40e5b"
+			name="btn_LogIn"
+			refimgid="048847fc-38f7-46c5-a954-fa8f04a9ae34"
+			refpath="/dom[@domain='localhost:8080']//div[#'main-panel']/div/form[@name='login']/span/span/button[@innertext='log in']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8080']//div[#'main-panel']/?/?/form[@name='login']//button[@innertext='log in']
+			</item>
+			<item
+			addcaps="unknown,webelement,btag"
+			capname="btag"
+			id="8844ba75-7a4b-46b2-b107-500b241563ec"
+			name="link_LogIn"
+			refimgid="ea00e79f-5663-41fb-a636-8bfdcf6f6b8d"
+			refpath="/dom[@domain='localhost:8080']//div[#'header']/div[2]/a[@href='http://localhost:8080/login?from=%2F']/b[@innertext='log in']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8080']//div[#'header']//b[@innertext='log in']
+			</item>
+			<item
+			addcaps="unknown,webelement,btag"
+			capname="btag"
+			id="ef06be2c-b393-42e0-ad0f-d06470e6dec6"
+			name="link_LogOut"
+			refimgid="dbd9ee09-7d6a-4913-a7f2-2ecc2e872797"
+			refpath="/dom[1]//div[#'header']/div[2]/span[@innertext='                    |                    ']/a[@href='http://localhost:8080/logout']/b[@innertext='log out']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8080']//div[#'header']/?/?/span[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \|\ \ ']/?/?/b[@innertext='log out']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8080']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c7dd46bb-33fa-489b-9b7a-c4abe4f209e2"
+		isrooted="True"
+		name="RestorePages"
+		refpath="/form[@title='Restore pages?']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="0429ddaf-5d23-4183-bc2c-570c4192f0b7"
+			name="btn_Close"
+			refimgid="51d5a3f2-09ac-4478-a6d3-3f39c8effc85"
+			refpath="/form[@title='Restore pages?']/element[@accessiblename='Restore pages?']/container[@accessiblename='']/container[1]/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Restore pages?']/element[@accessiblename='Restore pages?']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='Restore pages?']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

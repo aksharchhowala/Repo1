@@ -27,7 +27,7 @@ rxversion="8.2">
 			addcaps="text,accessible"
 			capname="text"
 			id="93235cea-fc03-4f17-ab9e-e68a0fc05916"
-			name="Text"
+			name="txt_MasterPassword"
 			refimgid="9e53066e-39d1-4d87-848d-396a78cd8d23"
 			refpath="/form[@controlname='KeyPromptForm']/text[@controlname='m_tbPassword']/text[@accessiblerole='Text']"
 			searchtimeout="30000ms">
@@ -37,7 +37,7 @@ rxversion="8.2">
 			addcaps="button,control,nativewindow"
 			capname="button"
 			id="98625ce7-fc63-405a-917c-0ec3aa539773"
-			name="MBtnOK"
+			name="btn_MasterOk"
 			refimgid="88425776-d03e-4bf0-84cc-db70c0287a71"
 			refpath="/form[@controlname='KeyPromptForm']/button[@controlname='m_btnOK']"
 			searchtimeout="30000ms">
@@ -79,27 +79,17 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="menuitem,accessible"
 			capname="menuitem"
 			id="55bda606-67df-4872-bdfc-32df43f32521"
-			name="Edit"
+			name="menuItem_Edit"
 			refimgid="b909673c-9b61-4aa1-94e0-3183056435cf"
 			refpath="/form[@controlname='MainForm']/menubar[@controlname='m_menuMain']/menuitem[@accessiblename='Edit']"
 			searchtimeout="30000ms">
 				/form[@controlname='MainForm']/?/?/menuitem[@accessiblename='Edit']
 			</item>
 			<item
-			addcaps="treeitem,accessible,accessibletreeitem"
-			capname="treeitem"
-			id="731cd16e-225d-44ac-884d-806591befc43"
-			name="General"
-			refimgid="0f6fdf5d-c440-4fe5-9335-db00a33de2a7"
-			refpath="/form[@controlname='MainForm']/container/container[@caption='' and @controltypename='SplitterPanel' and @instance='0']/container/container[@caption='' and @controltypename='SplitterPanel' and @instance='0']/tree/tree/treeitem/treeitem[@accessiblename='General']"
-			searchtimeout="30000ms">
-				/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']//tree[@controlname='m_tvGroups']/?/?/treeitem[@accessiblename='NewDatabase']/treeitem[@accessiblename='General']
-			</item>
-			<item
 			addcaps="cell"
 			capname="cell"
 			id="46da4645-7ef3-4ca6-ad16-bd55a2cdb5ef"
-			name="KeyPassDemo"
+			name="lable_KeyPassDemo"
 			refimgid="e755763c-21e3-467e-9176-c5d034b0ddce"
 			refpath="/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']/container[@caption='' and @controltypename='SplitterPanel' and @instance='0']/container[@controlname='m_splitVertical']/container[@caption='' and @controltypename='SplitterPanel' and @instance='1']/table[@controlname='m_lvEntries']/row[@index='0']/cell[@text='KeyPassDemo' and @columnindex='0']"
 			searchtimeout="30000ms">
@@ -109,7 +99,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="button,accessible"
 			capname="button"
 			id="492ff078-6995-4575-b015-9257f1dcfcf2"
-			name="Save"
+			name="btn_Save"
 			refimgid="d5642868-0ad0-45a7-aa52-38a13aea2027"
 			refpath="/form[@controlname='MainForm']/toolbar/button[@accessiblename='Save']"
 			searchtimeout="30000ms">
@@ -119,7 +109,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="button,accessible"
 			capname="button"
 			id="992f35e1-d7ac-4d7d-83f0-353d48259686"
-			name="Close"
+			name="btn_Close"
 			refimgid="75de0f36-b458-4644-82a9-0a7036e1e4a7"
 			refpath="/form[@controlname='MainForm']/titlebar/button[@accessiblename='Close']"
 			searchtimeout="30000ms">
@@ -129,7 +119,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="menuitem,accessible"
 			capname="menuitem"
 			id="feaf01d6-8bc0-4970-94f6-6b51d3cd44c4"
-			name="Help"
+			name="menuItem_Help"
 			refimgid="99f33c05-279b-4536-a5fc-c8dc6a78697e"
 			refpath="/form[@controlname='MainForm']/menubar[@controlname='m_menuMain']/menuitem[@accessiblename='Help']"
 			searchtimeout="30000ms">
@@ -170,7 +160,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="menuitem,accessible"
 			capname="menuitem"
 			id="58f4ba93-99c4-4d5d-b88a-650097bd3b15"
-			name="AddEntry"
+			name="menuItem_AddEntry"
 			refimgid="835553bc-ede3-4289-b4d2-4d568f5f6d22"
 			refpath="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Add Entry...']"
 			searchtimeout="30000ms">
@@ -180,7 +170,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="menuitem,accessible"
 			capname="menuitem"
 			id="1ac9803a-eaf3-426e-8b3c-e9a8339168c9"
-			name="MenuItem1Year"
+			name="menuItem_1Year"
 			refimgid="1384e7f9-e69f-4628-b896-982a25cdd390"
 			searchtimeout="30000ms">
 				/contextmenu[@processname='KeePass']/menuitem[@accessiblename=$varExpires]
@@ -189,7 +179,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="menuitem,accessible"
 			capname="menuitem"
 			id="d8f21a7b-d510-4594-a750-84aa6e9be3a6"
-			name="DeleteEntry"
+			name="menuItem_DeleteEntry"
 			refimgid="e3c269ba-4675-442e-9be6-736d123f6c32"
 			refpath="/contextmenu[@controlname='m_ctxPwList']/menuitem[@accessiblename='Delete Entry']"
 			searchtimeout="30000ms">
@@ -199,7 +189,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="menuitem,accessible"
 			capname="menuitem"
 			id="6bc9a2f6-501d-47de-9133-7164d695a093"
-			name="AboutKeePass"
+			name="menuItem_AboutKeePass"
 			refimgid="1a12ff0c-5bd2-4132-a3b1-9d654c64e0ee"
 			refpath="/contextmenu[@processname='KeePass']/menuitem[@accessiblename='About KeePass...']"
 			searchtimeout="30000ms">
@@ -276,7 +266,7 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 			addcaps="button,control,nativewindow"
 			capname="button"
 			id="3ad796b7-fd21-46d6-b973-b2c2d87e9957"
-			name="MBtnOK"
+			name="btn_OK"
 			refimgid="6374597c-841f-4516-a762-65c88d1e59ef"
 			refpath="/form[@controlname='PwEntryForm']/button[@controlname='m_btnOK']"
 			searchtimeout="30000ms">
@@ -292,20 +282,10 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 			searchtimeout="30000ms"
 			usecache="False">
 				<item
-				addcaps="tabpage,control,nativewindow"
-				capname="tabpage"
-				id="ad7e7325-bdc6-420d-9944-ed6393372f84"
-				name="MTabEntry"
-				refimgid="9f80151b-d245-47ee-aca1-d2fc6611a580"
-				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']"
-				searchtimeout="30000ms">
-					/form[@controlname='PwEntryForm']/?/?/tabpage[@controlname='m_tabEntry']
-				</item>
-				<item
 				addcaps="text,accessible"
 				capname="text"
 				id="dbaf3614-3ee8-44d9-92a1-6cb2ed16a9d2"
-				name="Password"
+				name="txt_Password"
 				refimgid="771fc64e-71ed-4449-8565-c54c9941eda7"
 				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbPassword']/text[@accessiblename='Password:']"
 				searchtimeout="30000ms">
@@ -315,7 +295,7 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 				addcaps="text,accessible"
 				capname="text"
 				id="b6444985-fe2e-43bd-8280-8c0132122182"
-				name="Repeat"
+				name="txt_Repeat"
 				refimgid="51fe3f3d-e25f-46d9-93ff-1420db4cc916"
 				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbRepeatPassword']/text[@accessiblename='Repeat:']"
 				searchtimeout="30000ms">
@@ -325,7 +305,7 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 				addcaps="text,accessible"
 				capname="text"
 				id="98e4673e-0b70-4867-8d11-86b54fc80b35"
-				name="URL"
+				name="txt_URL"
 				refimgid="01d27aa2-f18a-449e-a50e-7d7ab2190856"
 				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbUrl']/text[@accessiblename='URL:']"
 				searchtimeout="30000ms">
@@ -335,7 +315,7 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 				addcaps="text,accessible"
 				capname="text"
 				id="4d9a3231-19ee-4627-a7e6-cc0d0e885b45"
-				name="UserName"
+				name="txt_UserName"
 				refimgid="40141469-ea10-4f4e-bd91-d864b0ca0704"
 				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbUserName']/text[@accessiblename='User name:']"
 				searchtimeout="30000ms">
@@ -345,7 +325,7 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 				addcaps="button,control,nativewindow"
 				capname="button"
 				id="84385695-110c-4f7c-bcdf-533a98ea784f"
-				name="MBtnIcon"
+				name="btn_Icon"
 				refimgid="bcb6865d-69fa-4019-8381-01579c976f9e"
 				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']/button[@controlname='m_btnIcon']"
 				searchtimeout="30000ms">
@@ -355,7 +335,7 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 				addcaps="button,control,nativewindow"
 				capname="button"
 				id="b6fc3a48-c940-4ffd-961c-4351b408620a"
-				name="MBtnStandardExpires"
+				name="btn_Exeption"
 				refimgid="09446355-d160-4b0a-9390-73c2cea3e86c"
 				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']/button[@controlname='m_btnStandardExpires']"
 				searchtimeout="30000ms">
@@ -365,7 +345,7 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 				addcaps="text,accessible"
 				capname="text"
 				id="71966dcf-17ba-4050-a24e-044eb3f5b620"
-				name="Text"
+				name="txt_Title"
 				refimgid="a097ec64-ad3b-4960-8dd8-b11409e5476d"
 				refpath="/form[@controlname='PwEntryForm']/tabpagelist/tabpage[@controlname='m_tabEntry']/text[@controlname='m_tbTitle']/text[@accessiblerole='Text']"
 				searchtimeout="30000ms">
@@ -420,7 +400,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="button,control,nativewindow"
 			capname="button"
 			id="7fdbc5f3-9b9f-4f51-bdee-c17451abb382"
-			name="MBtnOK"
+			name="btn_Close"
 			refimgid="c5d2704a-f593-4fce-ad52-ebbf72d17095"
 			refpath="/form[@controlname='IconPickerForm']/button[@controlname='m_btnOK']"
 			searchtimeout="30000ms">
@@ -462,7 +442,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="button,nativewindow"
 			capname="button"
 			id="a541d56b-2ed0-429c-8d91-eb6bb8dac9ff"
-			name="ButtonOK"
+			name="btn_Ok"
 			refimgid="5b9c0574-5cef-452e-8028-764329007773"
 			refpath="/form[@title='KeePass' and @processname='KeePass']/button[@text='OK']"
 			searchtimeout="30000ms">
@@ -472,7 +452,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="button,nativewindow"
 			capname="button"
 			id="4f60538b-62d7-4dce-a957-d3b1b5c27198"
-			name="ButtonSave"
+			name="btn_Save"
 			refimgid="ba2f8456-d30d-4fd4-8613-e86ab32f566f"
 			refpath="/form[@title='KeePass' and @processname='KeePass']/container/element[@class='CtrlNotifySink' and @instance='0']/button[@text='&amp;Save']"
 			searchtimeout="30000ms">
@@ -482,7 +462,7 @@ FYamxSTfAAAAAElFTkSuQmCC
 			addcaps="button,nativewindow"
 			capname="button"
 			id="040694ae-a863-428c-b14f-641d2354b4c8"
-			name="ButtonDiscardChanges"
+			name="btn_DiscardChanges"
 			refimgid="ef7e009e-a5d8-432b-8a07-078b793efabd"
 			refpath="/form[@title='KeePass' and @processname='KeePass']/container/element[@class='CtrlNotifySink' and @instance='1']/button[@text='&amp;Discard changes']"
 			searchtimeout="30000ms">
@@ -522,7 +502,7 @@ rmjSoaV3lpSUNznapjn/gJebcy4JVZiuaTfjTrXX+J1ZrN8zPhLQld4JOAAAAABJRU5ErkJggg==
 			addcaps="cell"
 			capname="cell"
 			id="c900914b-ced7-46c4-ad6a-94c58f3a49d3"
-			name="Cell2201"
+			name="Cell_Version"
 			refimgid="33d84444-5702-45d9-bf4c-1c3f2a3de89e"
 			searchtimeout="30000ms">
 				/form[@controlname='AboutForm']/table[@controlname='m_lvComponents']/?/?/cell[@columnindex='1' and @rowindex='1']
@@ -531,7 +511,7 @@ rmjSoaV3lpSUNznapjn/gJebcy4JVZiuaTfjTrXX+J1ZrN8zPhLQld4JOAAAAABJRU5ErkJggg==
 			addcaps="button,control,nativewindow"
 			capname="button"
 			id="a98460c1-1bfb-4678-b4c5-64214b4ebb01"
-			name="MBtnOK"
+			name="btn_Ok"
 			refimgid="b17a0ca1-e391-4e0d-bb6f-424b013e33f6"
 			refpath="/form[@controlname='AboutForm']/button[@controlname='m_btnOK']"
 			searchtimeout="30000ms">

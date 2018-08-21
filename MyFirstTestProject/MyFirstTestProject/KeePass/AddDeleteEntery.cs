@@ -107,28 +107,28 @@ namespace MyFirstTestProject
         
         public void AddNewEntery(){
         	
-        	Click_fn(repo.MainForm.Edit);
-        	Click_fn(repo.KeePass.AddEntry);
-        	textValue_fn(repo.PwEntryForm.MTabEntry1.Text,strTitle);
-        	Click_fn(repo.PwEntryForm.MTabEntry1.MBtnIcon);
+        	Click_fn(repo.MainForm.menuItem_Edit);
+        	Click_fn(repo.KeePass.menuItem_AddEntry);
+        	textValue_fn(repo.PwEntryForm.MTabEntry1.txt_Title,strTitle);
+        	Click_fn(repo.PwEntryForm.MTabEntry1.btn_Icon);
         	repo.IconPickerForm.ListItem1.Select();
         	SuccessWithScreenshot("Icon Picker Selected from list.");
-        	Click_fn(repo.IconPickerForm.MBtnOK);
-        	textValue_fn(repo.PwEntryForm.MTabEntry1.UserName,strUserName);
-        	textValue_fn(repo.PwEntryForm.MTabEntry1.Password,strPassword);
-        	textValue_fn(repo.PwEntryForm.MTabEntry1.Repeat,strPassword);
-        	textValue_fn(repo.PwEntryForm.MTabEntry1.URL,strURL);
+        	Click_fn(repo.IconPickerForm.btn_Close);
+        	textValue_fn(repo.PwEntryForm.MTabEntry1.txt_UserName,strUserName);
+        	textValue_fn(repo.PwEntryForm.MTabEntry1.txt_Password,strPassword);
+        	textValue_fn(repo.PwEntryForm.MTabEntry1.txt_Repeat,strPassword);
+        	textValue_fn(repo.PwEntryForm.MTabEntry1.txt_URL,strURL);
         	repo.varExpires = strExpires;
-        	Click_fn(repo.PwEntryForm.MTabEntry1.MBtnStandardExpires);
-        	Click_fn(repo.KeePass.MenuItem1Year);
-        	Click_fn(repo.PwEntryForm.MBtnOK);
+        	Click_fn(repo.PwEntryForm.MTabEntry1.btn_Exeption);
+        	Click_fn(repo.KeePass.menuItem_1Year);
+        	Click_fn(repo.PwEntryForm.btn_OK);
 
         }
         
         
         public void ValidateTitle(){
         	
-        	string strTitle = repo.MainForm.KeyPassDemo.Element.GetAttributeValueText("text");
+        	string strTitle = repo.MainForm.lable_KeyPassDemo.Element.GetAttributeValueText("text");
         	if (String.Equals(strTitle,this.strTitle)) 
         		SuccessWithScreenshot("Title is as expected.");
         	else
@@ -138,9 +138,9 @@ namespace MyFirstTestProject
         
         public void DeleteEntery(){
         	
-        	repo.MainForm.KeyPassDemo.Click(System.Windows.Forms.MouseButtons.Right);
+        	repo.MainForm.lable_KeyPassDemo.Click(System.Windows.Forms.MouseButtons.Right);
         	SuccessWithScreenshot("Right clicked on KeePass title Entery.");
-        	Click_fn(repo.KeePass.DeleteEntry);
+        	Click_fn(repo.KeePass.menuItem_DeleteEntry);
         	
         }
         

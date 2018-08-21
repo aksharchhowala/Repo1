@@ -64,8 +64,8 @@ namespace MyFirstTestProject.KeePass
 		public void LogInFunction(){
 			
 			Host.Local.RunApplication(_stringFilePath);
-			textValue_fn(repo.LoginPage.Text,"rx");
-			Click_fn(repo.LoginPage.MBtnOK);
+			textValue_fn(repo.LoginPage.txt_MasterPassword,"rx");
+			Click_fn(repo.LoginPage.btn_MasterOk);
 
 		}
 		

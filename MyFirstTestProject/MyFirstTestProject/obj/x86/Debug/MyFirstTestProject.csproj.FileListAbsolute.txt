@@ -25,3 +25,4 @@ D:\Akshar Chhowala\GetRepo\MyFirstTestProject\MyFirstTestProject\bin\Debug\NewCu
 D:\Akshar Chhowala\GetRepo\MyFirstTestProject\MyFirstTestProject\bin\Debug\NewCustomTemplate2\RanorexReport.xsl
 D:\Akshar Chhowala\GetRepo\MyFirstTestProject\MyFirstTestProject\bin\Debug\NewCustomTemplate2\View.rxlog
 D:\Akshar Chhowala\GetRepo\MyFirstTestProject\MyFirstTestProject\bin\Debug\NewCustomTemplate2\View.rxlog.data
+D:\Akshar Chhowala\GetRepo\MyFirstTestProject\MyFirstTestProject\bin\Debug\Ranorex.PDF.dll

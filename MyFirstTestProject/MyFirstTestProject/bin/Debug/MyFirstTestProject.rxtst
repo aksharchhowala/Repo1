@@ -3,6 +3,10 @@
 rxversion="8.2">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<teardown
+			id="09a12f8d-1faf-4031-b688-7133b3012c97"
+			name="teardown">
+			</teardown>
 			<setup
 			id="16350494-8dc7-4025-ad2e-be3ec5a98f95"
 			name="setup">
@@ -11,6 +15,12 @@ rxversion="8.2">
 			id="19cf4b8a-a8bc-492e-b141-31dca8678ef1"
 			name="ReportToPDF"
 			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
+			type="UserCode">
+			</testmodule>
+			<testmodule
+			id="1ae5d193-bc8d-4821-9f1e-35432171eba6"
+			name="MyDailyRoutin"
+			ref="5c365455-5386-44ef-a4e1-89c235348f17"
 			type="UserCode">
 			</testmodule>
 			<testsuite
@@ -70,6 +80,12 @@ rxversion="8.2">
 			id="39f42f23-9abd-41a9-9f93-7d719dad14df"
 			name="KeePassAddDelete">
 			</testcase>
+			<testmodule
+			id="3d0d6b70-0b85-4bc6-acea-0dd0ef9b3bd3"
+			name="ReportToPDF"
+			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
+			type="UserCode">
+			</testmodule>
 			<testmodule
 			id="3f03f42f-0485-47ea-9f48-e7f9355d7c2c"
 			name="LogIn"
@@ -136,6 +152,10 @@ rxversion="8.2">
 			maxrange="0"
 			minrange="0"
 			name="KeePassVersion">
+			</testcase>
+			<testcase
+			id="c84a48d3-a812-4e71-b1a5-9811a70e6ce1"
+			name="DailyRoutin">
 			</testcase>
 			<teardown
 			id="c930d966-0148-4bbc-9ac2-b5db11199775"
@@ -225,6 +245,22 @@ rxversion="8.2">
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="c84a48d3-a812-4e71-b1a5-9811a70e6ce1"
+					name="DailyRoutin">
+						<testmodule
+						id="1ae5d193-bc8d-4821-9f1e-35432171eba6"
+						name="MyDailyRoutin">
+						</testmodule>
+						<teardown
+						id="09a12f8d-1faf-4031-b688-7133b3012c97"
+						name="teardown">
+							<testmodule
+							id="3d0d6b70-0b85-4bc6-acea-0dd0ef9b3bd3"
+							name="ReportToPDF">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -296,7 +332,7 @@ rxversion="8.2">
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="Version">
+	default="DailyRoutin">
 		<testconfiguration
 		name="AddDelete">
 			<testcontainer
@@ -316,6 +352,18 @@ rxversion="8.2">
 			</testcontainer>
 			<testcontainer
 			id="c2402f93-1de9-43f1-bad3-0661013ac9db">
+			</testcontainer>
+			<testcontainer
+			id="c84a48d3-a812-4e71-b1a5-9811a70e6ce1">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="DailyRoutin">
+			<testcontainer
+			id="82970793-9771-4ed7-89a3-d8de0f03b223">
+			</testcontainer>
+			<testcontainer
+			id="c84a48d3-a812-4e71-b1a5-9811a70e6ce1">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

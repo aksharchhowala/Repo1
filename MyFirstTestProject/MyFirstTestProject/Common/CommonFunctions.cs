@@ -28,25 +28,39 @@ namespace MyFirstTestProject
 		
 		public void Click_fn(Ranorex.Adapter repoObj ){
 			repoObj.Click();
-			Report.Success(repoObj.Element.GetAttributeValueText("accessiblename") + "is clicked.");
 			Report.Screenshot();
+			Report.Success(repoObj.Element.GetAttributeValueText("accessiblename") + "is clicked.");
 		}
 		
 		public void textValue_fn(Ranorex.Adapter repoObj,string value){
 			repoObj.Element.SetAttributeValue("text",value);
-			Report.Success(value +" has been entered in text area "+repoObj.Element.GetAttributeValueText("accessiblename")+" .");
 			Report.Screenshot();
+			Report.Success(value +" has been entered in text area "+repoObj.Element.GetAttributeValueText("accessiblename")+" .");
+		}
+		
+		public void textValue_fn(Ranorex.Adapter repoObj,string AttributeValue,string value){
+			repoObj.Element.SetAttributeValue(AttributeValue,value);
+			Report.Screenshot();
+			Report.Success(value +" has been entered in text area "+repoObj.Element.GetAttributeValueText("accessiblename")+" .");
 		}
 		
 		public void SuccessWithScreenshot(string message){
-			Report.Success(message);
 			Report.Screenshot();
+			Report.Success(message);
 		}
 		
 		public void FailureWithScreenshot(string message){
-			Report.Failure(message);
 			Report.Screenshot();
+			Report.Failure(message);
 		}
+		
+		
+		public void closeBrowser(string browserName="chrome"){
+        	Host.Local.KillBrowser(browserName);
+        	Report.Screenshot();
+        	Report.Success("Closed all the tabs of "+browserName+".");
+        }
+		
 		
 	}
 }

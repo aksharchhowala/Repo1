@@ -65,18 +65,18 @@ namespace MyFirstTestProject.KeePass
         
         public void versionNumber(){
         	
-        	Click_fn(repo.MainForm.Help);
+        	Click_fn(repo.MainForm.menuItem_Help);
         	
-        	Click_fn(repo.KeePass.AboutKeePass);
+        	Click_fn(repo.KeePass.menuItem_AboutKeePass);
         	
-        	string strVersion = repo.AboutForm.Cell2201.Element.GetAttributeValueText("text");
+        	string strVersion = repo.AboutForm.Cell_Version.Element.GetAttributeValueText("text");
         	
         	if (String.Equals(strVersion,this.strVersion))
         		SuccessWithScreenshot("KeePass version matches with the database.");
         	else
         		FailureWithScreenshot("KeePass version does't match with database.");
         	
-        	Click_fn(repo.AboutForm.MBtnOK);
+        	Click_fn(repo.AboutForm.btn_Ok);
 
         }
         
