@@ -123,18 +123,6 @@
     <Compile Include="Common\CommonFunctions.cs">
       <id>a8a403e1-875a-4a84-9fab-b5f8b6f0d74d</id>
     </Compile>
-    <Compile Include="FaceBookRepo.cs">
-      <BoundTo>8c96d28f-233a-4394-8b34-0be01cbb80ae</BoundTo>
-      <DependentUpon>FaceBookRepo.rxrep</DependentUpon>
-      <RepositoryCode>true</RepositoryCode>
-      <id>27efbf6c-e754-442e-9147-24480ad05bc7</id>
-    </Compile>
-    <Compile Include="JenKinsRepoItem.cs">
-      <BoundTo>c584ac7c-5492-4458-98e3-f4f40b174549</BoundTo>
-      <DependentUpon>JenKinsRepoItem.rxrep</DependentUpon>
-      <RepositoryCode>true</RepositoryCode>
-      <id>09ddfb1c-0f78-43d0-afb3-075781357ba2</id>
-    </Compile>
     <Compile Include="KeePass\AddDeleteEntery.cs">
       <id>091f40ff-a84a-4c40-bcb6-ef42bc48a160</id>
     </Compile>
@@ -150,17 +138,14 @@
     <Compile Include="MyDaily\FaceBook.cs">
       <id>20a9ece5-f979-4c53-a873-f27e20cd341e</id>
     </Compile>
+    <Compile Include="MyDaily\GitHub.cs">
+      <id>1f828988-5b4c-46b5-ad4b-0d4629ad9c30</id>
+    </Compile>
     <Compile Include="MyDaily\Jenkins.cs">
       <id>a80eeae8-e05f-432a-a762-f0949298cdd0</id>
     </Compile>
     <Compile Include="MyDaily\MyDailyRoutin.cs">
       <id>a45d285d-5532-43b2-9a54-cfd82d96d2d8</id>
-    </Compile>
-    <Compile Include="MyFirstTestProjectRepository.cs">
-      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
-      <DependentUpon>MyFirstTestProjectRepository.rxrep</DependentUpon>
-      <RepositoryCode>true</RepositoryCode>
-      <id>7dc46a86-ee7c-469f-be5f-ca028a7a0ef6</id>
     </Compile>
     <Compile Include="Program.cs">
       <id>ceebcb6a-880d-48fb-ae01-9d0a372c02d1</id>
@@ -168,40 +153,75 @@
     <Compile Include="ReportToPDF_7.X.cs">
       <id>3a4ce29f-eed0-47e6-b943-a43bb43464cc</id>
     </Compile>
+    <Compile Include="Repository\FaceBookRepo.cs">
+      <DependentUpon>FaceBookRepo.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>27efbf6c-e754-442e-9147-24480ad05bc7</id>
+      <BoundTo>8c96d28f-233a-4394-8b34-0be01cbb80ae</BoundTo>
+    </Compile>
+    <Compile Include="Repository\GitHubRepo.cs">
+      <DependentUpon>GitHubRepo.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>f43ea767-42bd-4cbe-adb7-327cc5b81674</id>
+      <BoundTo>91a7772f-5402-468a-a7a7-3b1ac57e06f1</BoundTo>
+    </Compile>
+    <Compile Include="Repository\JenKinsRepoItem.cs">
+      <DependentUpon>JenKinsRepoItem.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>09ddfb1c-0f78-43d0-afb3-075781357ba2</id>
+      <BoundTo>c584ac7c-5492-4458-98e3-f4f40b174549</BoundTo>
+    </Compile>
+    <Compile Include="Repository\KeePassRepo.cs">
+      <DependentUpon>KeePassRepo.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>7dc46a86-ee7c-469f-be5f-ca028a7a0ef6</id>
+      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
       <id>494c02d4-daf3-4925-a6d9-c7797dc3bbe8</id>
     </None>
-    <None Include="FaceBookRepo.rximg">
-      <BoundTo>8c96d28f-233a-4394-8b34-0be01cbb80ae</BoundTo>
+    <None Include="Repository\FaceBookRepo.rximg">
       <DependentUpon>FaceBookRepo.rxrep</DependentUpon>
       <imageblob>true</imageblob>
       <id>16d007c8-e509-4276-b548-32e3ead1f9e6</id>
+      <BoundTo>8c96d28f-233a-4394-8b34-0be01cbb80ae</BoundTo>
     </None>
-    <None Include="FaceBookRepo.rxrep">
+    <None Include="Repository\FaceBookRepo.rxrep">
       <id>8c96d28f-233a-4394-8b34-0be01cbb80ae</id>
       <repoid>ec316177-2f32-4fec-b771-7f0e327990f0</repoid>
       <reporootid>392c89e4-da42-4af2-ac93-f46b340e40a8</reporootid>
     </None>
-    <None Include="JenKinsRepoItem.rximg">
-      <BoundTo>c584ac7c-5492-4458-98e3-f4f40b174549</BoundTo>
+    <None Include="Repository\GitHubRepo.rximg">
+      <DependentUpon>GitHubRepo.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>9f6bd4d5-7ef5-467b-9e6b-2ceceb33f0fa</id>
+      <BoundTo>91a7772f-5402-468a-a7a7-3b1ac57e06f1</BoundTo>
+    </None>
+    <None Include="Repository\GitHubRepo.rxrep">
+      <id>91a7772f-5402-468a-a7a7-3b1ac57e06f1</id>
+      <repoid>f8034d03-a7ac-4951-8982-c2f2111e7dc6</repoid>
+      <reporootid>ef16ba2d-9dcf-499c-9cf8-70a5eb93ce42</reporootid>
+    </None>
+    <None Include="Repository\JenKinsRepoItem.rximg">
       <DependentUpon>JenKinsRepoItem.rxrep</DependentUpon>
       <imageblob>true</imageblob>
       <id>3b51620a-3565-4bed-be7f-2533fe8164f8</id>
+      <BoundTo>c584ac7c-5492-4458-98e3-f4f40b174549</BoundTo>
     </None>
-    <None Include="JenKinsRepoItem.rxrep">
+    <None Include="Repository\JenKinsRepoItem.rxrep">
       <id>c584ac7c-5492-4458-98e3-f4f40b174549</id>
       <repoid>5c0d094c-f8d5-4981-ba3b-d825668c2348</repoid>
       <reporootid>68081677-099e-48cb-b9ce-85a468908c6f</reporootid>
     </None>
-    <None Include="MyFirstTestProjectRepository.rximg">
-      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
-      <DependentUpon>MyFirstTestProjectRepository.rxrep</DependentUpon>
+    <None Include="Repository\KeePassRepo.rximg">
+      <DependentUpon>KeePassRepo.rxrep</DependentUpon>
       <imageblob>true</imageblob>
       <id>75026a48-88ff-4e95-8ed8-58fdfd848d28</id>
+      <BoundTo>6bf47f8a-30fb-40af-99cc-04eb85834076</BoundTo>
     </None>
-    <None Include="MyFirstTestProjectRepository.rxrep">
+    <None Include="Repository\KeePassRepo.rxrep">
       <id>6bf47f8a-30fb-40af-99cc-04eb85834076</id>
       <repoid>3d47d2b9-c3d9-4f36-ab0e-f6a0d938f243</repoid>
       <reporootid>f7bc0049-88e2-4852-88d2-fcf38eb3b04b</reporootid>
@@ -242,6 +262,9 @@
     </Folder>
     <Folder Include="MyDaily">
       <id>d9a5759b-14c5-48fd-b8c1-32ba7f820445</id>
+    </Folder>
+    <Folder Include="Repository">
+      <id>67bfd64a-85f6-420c-a62d-74980d9a5556</id>
     </Folder>
     <Folder Include="NewCustomTemplate2">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

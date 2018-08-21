@@ -14,6 +14,7 @@ using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
 using MyFirstTestProject;
+using MyFirstTestProject.Repository;
 
 using Ranorex;
 using Ranorex.Core;
@@ -27,7 +28,7 @@ namespace MyFirstTestProject.KeePass
     [TestModule("106423EC-7179-4B7C-935D-10158888170F", ModuleType.UserCode, 1)]
     public class KeePassVersion : CommonFunctions,ITestModule
     {
-    	MyFirstTestProjectRepository repo = MyFirstTestProjectRepository.Instance;
+    	KeePassRepo repo = KeePassRepo.Instance;
         /// <summary>
         /// Constructs a new instance.
         /// </summary>

@@ -1,0 +1,89 @@
+﻿<repository
+id="f8034d03-a7ac-4951-8982-c2f2111e7dc6"
+name="GitHubRepo"
+rxversion="8.2">
+	<codegen
+	classname="GitHubRepo"
+	namespace="MyFirstTestProject.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="ef16ba2d-9dcf-499c-9cf8-70a5eb93ce42"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="c0a89691-105f-4d05-b635-d446fa4004a1"
+		isrooted="True"
+		name="TheWorldsLeadingSoftwareDevelopment"
+		refpath="/dom[@domain='github.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="8b93be1e-dbd0-4640-a278-526d8914e4e3"
+			name="link_SignIn"
+			refimgid="d8669591-2ee0-48bb-a5f3-62fb4abf5407"
+			refpath="/dom[@domain='github.com']/body/div[1]/header/div/div[2]/div[2]/a[@innertext='Sign in']"
+			searchtimeout="30000ms">
+				/dom[@domain='github.com']/body/div[1]/header/div/div[2]/div[2]/a[@innertext='Sign&#160;in']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9558f6cd-9239-4167-9e72-2944f201baa0"
+			name="txt_UserName"
+			refimgid="f8d65be2-cf65-48da-a337-bab35a798c24"
+			refpath="/dom[@domain='github.com']//input[#'login_field']"
+			searchtimeout="30000ms">
+				/dom[@domain='github.com']//input[#'login_field']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0cf622af-bb48-4838-bcc4-07b9ea929cf3"
+			name="txt_Password"
+			refimgid="7ba41baa-8d37-432e-87d3-73a2e48b7cc2"
+			refpath="/dom[@domain='github.com']//input[#'password']"
+			searchtimeout="30000ms">
+				/dom[@domain='github.com']//input[#'password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="31f08f6c-99a8-4c5d-ac96-eb1cd6b485b4"
+			name="btn_SignIn"
+			refimgid="4a3c5123-afc3-4c07-ae6a-16d8bfa69d48"
+			refpath="/dom[@domain='github.com']//div[#'login']/form[@action='https://github.com/session']/div[3]/input[@name='commit']"
+			searchtimeout="30000ms">
+				/dom[@domain='github.com']//div[#'login']/form[@action='https://github.com/session']/?/?/input[@name='commit']
+			</item>
+			<basepath>
+				/dom[@domain='github.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -16,30 +16,30 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace MyFirstTestProject
+namespace MyFirstTestProject.Repository
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    /// The class representing the MyFirstTestProjectRepository element repository.
+    /// The class representing the KeePassRepo element repository.
     /// </summary>
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     [RepositoryFolder("f7bc0049-88e2-4852-88d2-fcf38eb3b04b")]
-    public partial class MyFirstTestProjectRepository : RepoGenBaseFolder
+    public partial class KeePassRepo : RepoGenBaseFolder
     {
-        static MyFirstTestProjectRepository instance = new MyFirstTestProjectRepository();
-        MyFirstTestProjectRepositoryFolders.LoginPageAppFolder _loginpage;
-        MyFirstTestProjectRepositoryFolders.MainFormAppFolder _mainform;
-        MyFirstTestProjectRepositoryFolders.KeePassAppFolder _keepass;
-        MyFirstTestProjectRepositoryFolders.PwEntryFormAppFolder _pwentryform;
-        MyFirstTestProjectRepositoryFolders.IconPickerFormAppFolder _iconpickerform;
-        MyFirstTestProjectRepositoryFolders.KeePass1AppFolder _keepass1;
-        MyFirstTestProjectRepositoryFolders.AboutFormAppFolder _aboutform;
+        static KeePassRepo instance = new KeePassRepo();
+        KeePassRepoFolders.LoginPageAppFolder _loginpage;
+        KeePassRepoFolders.MainFormAppFolder _mainform;
+        KeePassRepoFolders.KeePassAppFolder _keepass;
+        KeePassRepoFolders.PwEntryFormAppFolder _pwentryform;
+        KeePassRepoFolders.IconPickerFormAppFolder _iconpickerform;
+        KeePassRepoFolders.KeePass1AppFolder _keepass1;
+        KeePassRepoFolders.AboutFormAppFolder _aboutform;
 
         /// <summary>
-        /// Gets the singleton class instance representing the MyFirstTestProjectRepository element repository.
+        /// Gets the singleton class instance representing the KeePassRepo element repository.
         /// </summary>
         [RepositoryFolder("f7bc0049-88e2-4852-88d2-fcf38eb3b04b")]
-        public static MyFirstTestProjectRepository Instance
+        public static KeePassRepo Instance
         {
             get { return instance; }
         }
@@ -47,16 +47,16 @@ namespace MyFirstTestProject
         /// <summary>
         /// Repository class constructor.
         /// </summary>
-        public MyFirstTestProjectRepository() 
-            : base("MyFirstTestProjectRepository", "/", null, 0, false, "f7bc0049-88e2-4852-88d2-fcf38eb3b04b", ".\\RepositoryImages\\MyFirstTestProjectRepositoryf7bc0049.rximgres")
+        public KeePassRepo() 
+            : base("KeePassRepo", "/", null, 0, false, "f7bc0049-88e2-4852-88d2-fcf38eb3b04b", ".\\RepositoryImages\\KeePassRepof7bc0049.rximgres")
         {
-            _loginpage = new MyFirstTestProjectRepositoryFolders.LoginPageAppFolder(this);
-            _mainform = new MyFirstTestProjectRepositoryFolders.MainFormAppFolder(this);
-            _keepass = new MyFirstTestProjectRepositoryFolders.KeePassAppFolder(this);
-            _pwentryform = new MyFirstTestProjectRepositoryFolders.PwEntryFormAppFolder(this);
-            _iconpickerform = new MyFirstTestProjectRepositoryFolders.IconPickerFormAppFolder(this);
-            _keepass1 = new MyFirstTestProjectRepositoryFolders.KeePass1AppFolder(this);
-            _aboutform = new MyFirstTestProjectRepositoryFolders.AboutFormAppFolder(this);
+            _loginpage = new KeePassRepoFolders.LoginPageAppFolder(this);
+            _mainform = new KeePassRepoFolders.MainFormAppFolder(this);
+            _keepass = new KeePassRepoFolders.KeePassAppFolder(this);
+            _pwentryform = new KeePassRepoFolders.PwEntryFormAppFolder(this);
+            _iconpickerform = new KeePassRepoFolders.IconPickerFormAppFolder(this);
+            _keepass1 = new KeePassRepoFolders.KeePass1AppFolder(this);
+            _aboutform = new KeePassRepoFolders.AboutFormAppFolder(this);
         }
 
 #region Variables
@@ -91,7 +91,7 @@ namespace MyFirstTestProject
         /// The LoginPage folder.
         /// </summary>
         [RepositoryFolder("85ca4e89-8c5b-4025-9966-63a3db391f98")]
-        public virtual MyFirstTestProjectRepositoryFolders.LoginPageAppFolder LoginPage
+        public virtual KeePassRepoFolders.LoginPageAppFolder LoginPage
         {
             get { return _loginpage; }
         }
@@ -100,7 +100,7 @@ namespace MyFirstTestProject
         /// The MainForm folder.
         /// </summary>
         [RepositoryFolder("309dcc16-8068-4155-8c07-d984e5f6d2c1")]
-        public virtual MyFirstTestProjectRepositoryFolders.MainFormAppFolder MainForm
+        public virtual KeePassRepoFolders.MainFormAppFolder MainForm
         {
             get { return _mainform; }
         }
@@ -109,7 +109,7 @@ namespace MyFirstTestProject
         /// The KeePass folder.
         /// </summary>
         [RepositoryFolder("d2020d88-b02c-4afc-99bf-30a84cdcf093")]
-        public virtual MyFirstTestProjectRepositoryFolders.KeePassAppFolder KeePass
+        public virtual KeePassRepoFolders.KeePassAppFolder KeePass
         {
             get { return _keepass; }
         }
@@ -118,7 +118,7 @@ namespace MyFirstTestProject
         /// The PwEntryForm folder.
         /// </summary>
         [RepositoryFolder("5044a4b7-ab54-4001-872e-7455f204cbca")]
-        public virtual MyFirstTestProjectRepositoryFolders.PwEntryFormAppFolder PwEntryForm
+        public virtual KeePassRepoFolders.PwEntryFormAppFolder PwEntryForm
         {
             get { return _pwentryform; }
         }
@@ -127,7 +127,7 @@ namespace MyFirstTestProject
         /// The IconPickerForm folder.
         /// </summary>
         [RepositoryFolder("e377384c-8354-487b-bc18-b529a5181c52")]
-        public virtual MyFirstTestProjectRepositoryFolders.IconPickerFormAppFolder IconPickerForm
+        public virtual KeePassRepoFolders.IconPickerFormAppFolder IconPickerForm
         {
             get { return _iconpickerform; }
         }
@@ -136,7 +136,7 @@ namespace MyFirstTestProject
         /// The KeePass1 folder.
         /// </summary>
         [RepositoryFolder("eea33797-6951-4fbb-b21e-a86359bb687d")]
-        public virtual MyFirstTestProjectRepositoryFolders.KeePass1AppFolder KeePass1
+        public virtual KeePassRepoFolders.KeePass1AppFolder KeePass1
         {
             get { return _keepass1; }
         }
@@ -145,7 +145,7 @@ namespace MyFirstTestProject
         /// The AboutForm folder.
         /// </summary>
         [RepositoryFolder("e46e2838-cbaa-4645-93f7-8581db15098c")]
-        public virtual MyFirstTestProjectRepositoryFolders.AboutFormAppFolder AboutForm
+        public virtual KeePassRepoFolders.AboutFormAppFolder AboutForm
         {
             get { return _aboutform; }
         }
@@ -155,7 +155,7 @@ namespace MyFirstTestProject
     /// Inner folder classes.
     /// </summary>
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
-    public partial class MyFirstTestProjectRepositoryFolders
+    public partial class KeePassRepoFolders
     {
         /// <summary>
         /// The LoginPageAppFolder folder.
@@ -569,7 +569,7 @@ namespace MyFirstTestProject
         [RepositoryFolder("5044a4b7-ab54-4001-872e-7455f204cbca")]
         public partial class PwEntryFormAppFolder : RepoGenBaseFolder
         {
-            MyFirstTestProjectRepositoryFolders.MTabEntry1Folder _mtabentry1;
+            KeePassRepoFolders.MTabEntry1Folder _mtabentry1;
             RepoItemInfo _btn_okInfo;
 
             /// <summary>
@@ -578,7 +578,7 @@ namespace MyFirstTestProject
             public PwEntryFormAppFolder(RepoGenBaseFolder parentFolder) :
                     base("PwEntryForm", "/form[@controlname='PwEntryForm']", parentFolder, 30000, null, true, "5044a4b7-ab54-4001-872e-7455f204cbca", "")
             {
-                _mtabentry1 = new MyFirstTestProjectRepositoryFolders.MTabEntry1Folder(this);
+                _mtabentry1 = new KeePassRepoFolders.MTabEntry1Folder(this);
                 _btn_okInfo = new RepoItemInfo(this, "btn_OK", "button[@controlname='m_btnOK']", 30000, null, "3ad796b7-fd21-46d6-b973-b2c2d87e9957");
             }
 
@@ -634,7 +634,7 @@ namespace MyFirstTestProject
             /// The MTabEntry1 folder.
             /// </summary>
             [RepositoryFolder("0a4475b3-5d21-49e8-882f-a788529af320")]
-            public virtual MyFirstTestProjectRepositoryFolders.MTabEntry1Folder MTabEntry1
+            public virtual KeePassRepoFolders.MTabEntry1Folder MTabEntry1
             {
                 get { return _mtabentry1; }
             }

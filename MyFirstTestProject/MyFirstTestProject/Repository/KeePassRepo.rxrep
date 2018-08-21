@@ -1,10 +1,10 @@
 ﻿<repository
 id="3d47d2b9-c3d9-4f36-ab0e-f6a0d938f243"
-name="MyFirstTestProjectRepository"
+name="KeePassRepo"
 rxversion="8.2">
 	<codegen
-	classname="MyFirstTestProjectRepository"
-	namespace="MyFirstTestProject">
+	classname="KeePassRepo"
+	namespace="MyFirstTestProject.Repository">
 	</codegen>
 	<rootfolder
 	capname="unknown"

@@ -11,6 +11,7 @@ using MyFirstTestProject;
 using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Testing;
+using MyFirstTestProject.Repository;
 
 
 namespace MyFirstTestProject.MyDaily

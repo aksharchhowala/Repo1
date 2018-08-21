@@ -4,7 +4,7 @@ name="FaceBookRepo"
 rxversion="8.2">
 	<codegen
 	classname="FaceBookRepo"
-	namespace="MyFirstTestProject">
+	namespace="MyFirstTestProject.Repository">
 	</codegen>
 	<rootfolder
 	capname="unknown"

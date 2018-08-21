@@ -4,7 +4,7 @@ name="JenKinsRepoItem"
 rxversion="8.2">
 	<codegen
 	classname="JenKinsRepoItem"
-	namespace="MyFirstTestProject">
+	namespace="MyFirstTestProject.Repository">
 	</codegen>
 	<rootfolder
 	capname="unknown"

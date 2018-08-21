@@ -13,7 +13,7 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
-using MyFirstTestProject;
+using MyFirstTestProject.Repository;
 using OpenQA.Selenium.Interactions;
 using Ranorex;
 using Ranorex.Core.Repository;
@@ -29,7 +29,7 @@ namespace MyFirstTestProject
     public class AddDeleteEntery : CommonFunctions,ITestModule
     {
     	
-    	MyFirstTestProjectRepository repo = MyFirstTestProjectRepository.Instance;
+    	KeePassRepo repo = KeePassRepo.Instance;
         /// <summary>
         /// Constructs a new instance.
         /// </summary>

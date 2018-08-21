@@ -57,6 +57,10 @@ namespace MyFirstTestProject.MyDaily
             Thread.Sleep(2000);
             openBrowser("www.youtube.com","chrome");
             Thread.Sleep(2000);
+            openBrowser("https://github.com/aksharchhowala/Repo1","chrome");
+            GitHub gh = new GitHub();
+            gh.logInToGitHub();
+            Thread.Sleep(2000);
         }
         
         
