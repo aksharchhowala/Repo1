@@ -60,33 +60,42 @@
 
               <!-- EXECUTION INFORMATION -->
               <xsl:call-template name="executionInformation" />
-				<br>
-					<teft>
-						<font color="#0000FF">
-							<h1>Detailed Test Report</h1>
-						</font>
-					</left>
-				</br>
-				<br>
-					<left>
-						<font color="Black">
-							<h3>Failed TestCase Details</h3>
-						</font>
-					</left>
-				</br>
-				<br>
-					<!--xsl:call-template name="executionInformationOfFailedTestCase"/-->
-				</br>	
-				<br>
-					<left>
-						<h3>
-							<font color="black">Disabled TestCase Details</font>
-						</h3>
-					</left>
-				</br>
-				<br>
-					<!--xsl:call-template name="exicutionBlock"/-->
-				</br>
+				<br></br>
+				<div>
+				<table>
+					<tr>
+						<center>
+							<font color="#0000FF">
+								<h1>Detailed Test Report</h1>
+							</font>
+						</center>
+					</tr>
+					<tr>
+						<td>
+							<center>
+								<font color="Black">
+									<h3>Failed TestCase Details</h3>
+								</font>
+							</center>
+						</td>
+						<td>
+							<center>
+								<h3>
+									<font color="black">Disabled TestCase Details</font>
+								</h3>
+							</center>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!--xsl:call-template name="executionInformationOfFailedTestCase"/-->
+						</td>	
+						<td>
+							<!--xsl:call-template name="exicutionBlock"/-->
+						</td>
+					</tr>
+				</table>
+				</div>
 				<br></br>
 				<xsl:variable name="itemCount">
                 <xsl:value-of select ="count(.//item)" />
