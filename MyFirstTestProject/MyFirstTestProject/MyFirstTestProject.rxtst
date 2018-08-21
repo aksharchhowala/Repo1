@@ -7,6 +7,12 @@ rxversion="8.2">
 			id="16350494-8dc7-4025-ad2e-be3ec5a98f95"
 			name="setup">
 			</setup>
+			<testmodule
+			id="19cf4b8a-a8bc-492e-b141-31dca8678ef1"
+			name="ReportToPDF"
+			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
+			type="UserCode">
+			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -17,7 +23,7 @@ rxversion="8.2">
 			placescreenshotsinfolder="True"
 			reportcompress="False"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
-			reporttemplatefolder=""
+			reporttemplatefolder="NewCustomTemplate2"
 			reportwriteinterval="30000ms"
 			showinvisiblechars="True">
 			</testsuite>
@@ -117,6 +123,12 @@ rxversion="8.2">
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="9598bb82-d01f-47df-898d-7b32216310e5"
+			name="ReportToPDF"
+			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
+			type="UserCode">
+			</testmodule>
 			<testcase
 			datarangeactive="True"
 			datasource="NewConnector"
@@ -179,6 +191,10 @@ rxversion="8.2">
 							id="dc6269fb-fc0d-460a-852e-6ec585559c90"
 							name="LogOut">
 							</testmodule>
+							<testmodule
+							id="9598bb82-d01f-47df-898d-7b32216310e5"
+							name="ReportToPDF">
+							</testmodule>
 						</teardown>
 					</testcase>
 					<testcase
@@ -202,6 +218,10 @@ rxversion="8.2">
 							<testmodule
 							id="c9b06308-4e3d-45ee-b358-553fbc51de0a"
 							name="LogOut">
+							</testmodule>
+							<testmodule
+							id="19cf4b8a-a8bc-492e-b141-31dca8678ef1"
+							name="ReportToPDF">
 							</testmodule>
 						</teardown>
 					</testcase>
@@ -276,7 +296,7 @@ rxversion="8.2">
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="AllTestRun">
+	default="Version">
 		<testconfiguration
 		name="AddDelete">
 			<testcontainer
@@ -309,5 +329,8 @@ rxversion="8.2">
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			Ranorex.PDF.dll
+		</reference>
 	</references>
 </testsuitedoc>

@@ -56,7 +56,7 @@ namespace MyFirstTestProject.KeePass
 		}
 		
 		public void LogOutModule(){
-			Thread.Sleep(5000);
+			Thread.Sleep(1000);
 			Host.Local.KillApplications("KeePass");
 		}
 		

@@ -8,6 +8,6 @@
       <string>94c41591-df93-45dd-b7d7-fb13cf8b4bdb</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution MyFirstTestProject[MyFirstTestProject[KeePass[]]]]&#xD;&#xA;Solution MyFirstTestProject\MyFirstTestProject&#xD;&#xA;Solution MyFirstTestProject" />
+  <ProjectBrowserState value="[Solution MyFirstTestProject[MyFirstTestProject[]]]&#xD;&#xA;Solution MyFirstTestProject\MyFirstTestProject\MyFirstTestProject.rxtst&#xD;&#xA;Solution MyFirstTestProject" />
   <StartupProject value="{5920741F-5C5A-4AC1-AE98-C0BF76FA2735}" />
 </Properties>

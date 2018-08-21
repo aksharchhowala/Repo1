@@ -5,8 +5,6 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="MyFirstTestProject.rxtst" />
-    <Element value="KeePass\KeePassVersion.cs" />
-    <Element value="MyFirstTestProjectRepository.rxrep" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

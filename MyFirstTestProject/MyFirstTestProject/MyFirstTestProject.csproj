@@ -44,6 +44,9 @@
     <Reference Include="Ranorex.Core.Resolver">
       <Private>True</Private>
     </Reference>
+    <Reference Include="Ranorex.PDF">
+      <HintPath>..\..\..\Software\Ranorex_PDF_Library\Ranorex.PDF.dll</HintPath>
+    </Reference>
     <Reference Include="Ranorex.Plugin.Cef">
       <Private>False</Private>
     </Reference>
@@ -141,6 +144,9 @@
     <Compile Include="Program.cs">
       <id>ceebcb6a-880d-48fb-ae01-9d0a372c02d1</id>
     </Compile>
+    <Compile Include="ReportToPDF_7.X.cs">
+      <id>3a4ce29f-eed0-47e6-b943-a43bb43464cc</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
@@ -163,25 +169,25 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>23caa898-14aa-4577-92f1-463452e0e0a9</id>
     </Content>
-    <Content Include="NewCustomTemplate1\RanorexReport.css">
+    <Content Include="NewCustomTemplate2\RanorexReport.css">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>6c51bd69-23c0-4c49-8cb8-5bb7968f3f4c</id>
+      <id>3984f0df-4f99-411c-9b0e-c3ff63fec377</id>
     </Content>
-    <Content Include="NewCustomTemplate1\RanorexReport.png">
+    <Content Include="NewCustomTemplate2\RanorexReport.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>35c7d775-f91c-4e42-be8b-a050aec47631</id>
+      <id>5162ca4e-62a5-4a67-b769-f2e152a6706e</id>
     </Content>
-    <Content Include="NewCustomTemplate1\RanorexReport.xsl">
+    <Content Include="NewCustomTemplate2\RanorexReport.xsl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>0b50425d-69c8-46b0-a9c7-a18bcd63dffc</id>
+      <id>c94ed9d1-f4d3-4124-8604-a04fa1aa5fc4</id>
     </Content>
-    <Content Include="NewCustomTemplate1\View.rxlog">
+    <Content Include="NewCustomTemplate2\View.rxlog">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>9f129533-522c-4e70-9031-ae9d9000e620</id>
+      <id>ae89374c-368f-4a08-bafe-7e5012af2da1</id>
     </Content>
-    <Content Include="NewCustomTemplate1\View.rxlog.data">
+    <Content Include="NewCustomTemplate2\View.rxlog.data">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>d43d112e-f47c-4682-a065-c5d601d37c6d</id>
+      <id>9319462c-d06c-4ab9-9267-da27229371bc</id>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -191,9 +197,9 @@
     <Folder Include="KeePass">
       <id>94c41591-df93-45dd-b7d7-fb13cf8b4bdb</id>
     </Folder>
-    <Folder Include="NewCustomTemplate1">
+    <Folder Include="NewCustomTemplate2">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>5981e29a-b008-47e7-b1e0-ad1a2f6ef454</id>
+      <id>74e73bf2-0ba7-44fc-bfdd-192f03cc0e95</id>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

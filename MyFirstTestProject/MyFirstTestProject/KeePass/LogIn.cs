@@ -66,7 +66,8 @@ namespace MyFirstTestProject.KeePass
 			Host.Local.RunApplication(_stringFilePath);
 			textValue_fn(repo.LoginPage.Text,"rx");
 			Click_fn(repo.LoginPage.MBtnOK);
-			
+
 		}
+		
 	}
 }
