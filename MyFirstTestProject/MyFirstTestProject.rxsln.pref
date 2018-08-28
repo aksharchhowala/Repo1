@@ -5,10 +5,11 @@
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>{5920741F-5C5A-4AC1-AE98-C0BF76FA2735}</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>fc84a742-c321-4f64-bbba-4815ba6386c9</string>
       <string>94c41591-df93-45dd-b7d7-fb13cf8b4bdb</string>
       <string>d9a5759b-14c5-48fd-b8c1-32ba7f820445</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution MyFirstTestProject[MyFirstTestProject[]]]&#xD;&#xA;Solution MyFirstTestProject\MyFirstTestProject\MyDaily&#xD;&#xA;Solution MyFirstTestProject" />
+  <ProjectBrowserState value="[Solution MyFirstTestProject[MyFirstTestProject[Amazon[]Common[]Repository[]]]]&#xD;&#xA;Solution MyFirstTestProject\MyFirstTestProject\Amazon\AmazonLaunch.cs&#xD;&#xA;Solution MyFirstTestProject" />
   <StartupProject value="{5920741F-5C5A-4AC1-AE98-C0BF76FA2735}" />
 </Properties>

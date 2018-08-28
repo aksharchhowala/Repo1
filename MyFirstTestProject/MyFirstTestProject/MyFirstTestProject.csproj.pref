@@ -1,14 +1,13 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="MyDaily\FaceBook.cs" />
+    <Element value="Amazon\AmazonLaunch.cs" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="MyFirstTestProject.rxtst" />
-    <Element value="Repository\GitHubRepo.rxrep" />
-    <Element value="MyDaily\GitHub.cs" />
-    <Element value="MyDaily\MyDailyRoutin.cs" />
-    <Element value="MyDaily\FaceBook.cs" />
+    <Element value="Repository\Amazon_Repo.rxrep" />
+    <Element value="Amazon\AmazonFunctions.cs" />
+    <Element value="Amazon\AmazonSearchFunction.cs" />
+    <Element value="Amazon\AmazonLaunch.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

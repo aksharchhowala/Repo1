@@ -2,7 +2,7 @@
  * Created by Ranorex
  * User: gg5bpd
  * Date: 8/28/2018
- * Time: 10:31 AM
+ * Time: 5:50 PM
  * 
  * To change this template use Tools > Options > Coding > Edit standard headers.
  */
@@ -18,18 +18,18 @@ using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Testing;
 
-namespace MyFirstTestProject.Amazone
+namespace MyFirstTestProject.Amazon
 {
     /// <summary>
-    /// Description of AmazonLaunch.
+    /// Description of AmazonSearchFunction.
     /// </summary>
-    [TestModule("980F41D3-71D6-40DF-834E-C1E3A2E3DC17", ModuleType.UserCode, 1)]
-    public class AmazonLaunch : MyFirstTestProject.Amazon.AmazonFunctions, ITestModule
+    [TestModule("26B8BDA5-5B89-4475-8A09-08E419F99849", ModuleType.UserCode, 1)]
+    public class AmazonSearchFunction : MyFirstTestProject.Amazon.AmazonFunctions, ITestModule
     {
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public AmazonLaunch()
+        public AmazonSearchFunction()
         {
             // Do not delete - a parameterless constructor is required!
         }
@@ -45,11 +45,7 @@ namespace MyFirstTestProject.Amazone
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
-            LanuchAmazon();
-            LoginAmazon();
+            searchItemOnAmazon("Apple IPhone X 64gb white");
         }
-        
-      
-        
     }
 }

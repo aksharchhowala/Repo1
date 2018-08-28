@@ -27,7 +27,7 @@ namespace MyFirstTestProject.Amazon
 		
 		public void LanuchAmazon(){
 			closeBrowser("chrome");
-			Host.Local.OpenBrowser("www.Amazon.com","chrome","",false,true,false,false,false);
+			Host.Local.OpenBrowser("www.Amazon.in","chrome","",false,true,false,false,false);
 			Thread.Sleep(2000);
 			SuccessWithScreenshot("Amazon website launched");
 		}
@@ -40,6 +40,14 @@ namespace MyFirstTestProject.Amazon
 					Click_fn(amazonRepo.AmazonComOnlineShoppingForElectron.btn_Continue);
 				}
 			}
+		}
+		
+		public void searchItemOnAmazon(string itemName){
+			
+			textValue_fn(amazonRepo.AmazonComOnlineShoppingForElectron.txt_SearchBar,"value",itemName);
+			amazonRepo.AmazonComOnlineShoppingForElectron.txt_SearchBar.PressKeys("{ENTER}");
+
+			
 		}
 	}
 }

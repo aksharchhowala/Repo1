@@ -88,6 +88,7 @@ namespace MyFirstTestProject.Repository
             RepoItemInfo _btn_loginInfo;
             RepoItemInfo _txt_usernameInfo;
             RepoItemInfo _btn_continueInfo;
+            RepoItemInfo _txt_searchbarInfo;
 
             /// <summary>
             /// Creates a new AmazonComOnlineShoppingForElectron  folder.
@@ -98,6 +99,7 @@ namespace MyFirstTestProject.Repository
                 _btn_loginInfo = new RepoItemInfo(this, "btn_Login", ".//a[#'nav-link-accountList']", 30000, null, "79d5a5c2-7b60-4615-a873-547f84e94cb4");
                 _txt_usernameInfo = new RepoItemInfo(this, "txt_UserName", ".//input[#'ap_email']", 30000, null, "b910b2a7-bb26-458f-88e4-c2bdf2bcc6a2");
                 _btn_continueInfo = new RepoItemInfo(this, "btn_Continue", ".//span[#'continue']/?/?/input[@id='continue']", 30000, null, "6fc068c2-d2ba-44a6-aa0b-77514fe938f3");
+                _txt_searchbarInfo = new RepoItemInfo(this, "txt_SearchBar", ".//input[#'twotabsearchtextbox']", 30000, null, "c6ab7376-458e-4175-83a2-064ff566097d");
             }
 
             /// <summary>
@@ -193,6 +195,30 @@ namespace MyFirstTestProject.Repository
                 get
                 {
                     return _btn_continueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_SearchBar item.
+            /// </summary>
+            [RepositoryItem("c6ab7376-458e-4175-83a2-064ff566097d")]
+            public virtual Ranorex.InputTag txt_SearchBar
+            {
+                get
+                {
+                    return _txt_searchbarInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_SearchBar item info.
+            /// </summary>
+            [RepositoryItemInfo("c6ab7376-458e-4175-83a2-064ff566097d")]
+            public virtual RepoItemInfo txt_SearchBarInfo
+            {
+                get
+                {
+                    return _txt_searchbarInfo;
                 }
             }
         }

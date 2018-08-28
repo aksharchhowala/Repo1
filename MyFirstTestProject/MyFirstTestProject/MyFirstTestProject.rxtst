@@ -37,6 +37,10 @@ rxversion="8.2">
 			reportwriteinterval="30000ms"
 			showinvisiblechars="True">
 			</testsuite>
+			<testcase
+			id="27bc3dd3-1e35-4f8c-8a61-8c3eac4409f3"
+			name="Amazon">
+			</testcase>
 			<testmodule
 			id="2b417754-ce92-4e66-b103-d61318b1b2ed"
 			name="AddDeleteEntery"
@@ -153,6 +157,12 @@ rxversion="8.2">
 			minrange="0"
 			name="KeePassVersion">
 			</testcase>
+			<testmodule
+			id="c71784a7-cd84-4d40-ab16-c5e941515136"
+			name="AmazonLaunch"
+			ref="980f41d3-71d6-40df-834e-c1e3a2e3dc17"
+			type="UserCode">
+			</testmodule>
 			<testcase
 			id="c84a48d3-a812-4e71-b1a5-9811a70e6ce1"
 			name="DailyRoutin">
@@ -261,6 +271,14 @@ rxversion="8.2">
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="27bc3dd3-1e35-4f8c-8a61-8c3eac4409f3"
+					name="Amazon">
+						<testmodule
+						id="c71784a7-cd84-4d40-ab16-c5e941515136"
+						name="AmazonLaunch">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -332,7 +350,7 @@ rxversion="8.2">
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="DailyRoutin">
+	default="Amazon">
 		<testconfiguration
 		name="AddDelete">
 			<testcontainer
@@ -345,6 +363,9 @@ rxversion="8.2">
 		<testconfiguration
 		name="AllTestRun">
 			<testcontainer
+			id="27bc3dd3-1e35-4f8c-8a61-8c3eac4409f3">
+			</testcontainer>
+			<testcontainer
 			id="39f42f23-9abd-41a9-9f93-7d719dad14df">
 			</testcontainer>
 			<testcontainer
@@ -355,6 +376,15 @@ rxversion="8.2">
 			</testcontainer>
 			<testcontainer
 			id="c84a48d3-a812-4e71-b1a5-9811a70e6ce1">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="Amazon">
+			<testcontainer
+			id="27bc3dd3-1e35-4f8c-8a61-8c3eac4409f3">
+			</testcontainer>
+			<testcontainer
+			id="82970793-9771-4ed7-89a3-d8de0f03b223">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

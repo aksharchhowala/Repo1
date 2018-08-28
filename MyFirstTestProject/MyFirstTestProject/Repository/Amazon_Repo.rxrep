@@ -53,6 +53,16 @@ rxversion="8.2">
 			searchtimeout="30000ms">
 				/dom[@domain='www.amazon.com']//span[#'continue']/?/?/input[@id='continue']
 			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c6ab7376-458e-4175-83a2-064ff566097d"
+			name="txt_SearchBar"
+			refimgid="33bc60bf-a7e1-47fd-ace9-9b0037ba4fa3"
+			refpath="/dom[@domain='www.amazon.com']//input[#'twotabsearchtextbox']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.com']//input[#'twotabsearchtextbox']
+			</item>
 			<basepath>
 				/dom[@domain='www.amazon.com']
 			</basepath>

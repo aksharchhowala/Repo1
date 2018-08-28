@@ -123,6 +123,9 @@
     <Compile Include="Amazon\AmazonLaunch.cs">
       <id>790d9061-0b38-49f7-a4ac-c016ad641a74</id>
     </Compile>
+    <Compile Include="Amazon\AmazonSearchFunction.cs">
+      <id>9c5332bd-1b00-4a70-ac37-58a2f0649e49</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>bf0776da-3b80-4876-b849-f376ac21f4aa</id>
     </Compile>
