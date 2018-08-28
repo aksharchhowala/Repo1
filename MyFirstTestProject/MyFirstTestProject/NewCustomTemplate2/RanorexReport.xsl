@@ -15,7 +15,7 @@
     <div id="header-top">
       <h1 id="logo">
         <span title="Ranorex">
-          <em>Ranorex Report</em>
+          <em>My Custom Report</em>
         </span>
       </h1>
       <div id="small-nav"></div>
@@ -60,43 +60,34 @@
 
               <!-- EXECUTION INFORMATION -->
               <xsl:call-template name="executionInformation" />
-				<br></br>
-				<div>
-				<table>
-					<tr>
-						<center>
-							<font color="#0000FF">
-								<h1>Detailed Test Report</h1>
-							</font>
-						</center>
-					</tr>
-					<tr>
-						<td>
-							<center>
-								<font color="Black">
-									<h3>Failed TestCase Details</h3>
-								</font>
-							</center>
-						</td>
-						<td>
-							<center>
-								<h3>
-									<font color="black">Disabled TestCase Details</font>
-								</h3>
-							</center>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<!--xsl:call-template name="executionInformationOfFailedTestCase"/-->
-						</td>	
-						<td>
-							<!--xsl:call-template name="exicutionBlock"/-->
-						</td>
-					</tr>
-				</table>
-				</div>
-				<br></br>
+            	<div><h3>
+            		<br></br>
+            	<table id="customtable">
+            	<tr>
+            		<td>
+            			sample 1
+            		</td>
+            		<td>
+            			sample 2
+            		</td>
+            		<td>
+            			sample 3
+            		</td>
+            		</tr>
+            		<tr>
+            		<td>
+            			sample 4
+            			</td>
+            		<td>
+            			Sample 5
+            			</td>
+            		<td>
+            			Sample 6
+            			</td>
+            		</tr>
+            	</table></h3>
+            	<br></br>
+            	</div>
 				<xsl:variable name="itemCount">
                 <xsl:value-of select ="count(.//item)" />
               </xsl:variable>

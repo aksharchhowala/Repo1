@@ -1,0 +1,21 @@
+﻿<repository
+id="cecfd7b2-d028-4f3f-87d8-6660d7d3a988"
+name="Amazon_Repo"
+rxversion="8.2">
+	<codegen
+	classname="Amazon_Repo"
+	namespace="MyFirstTestProject.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="54894421-98c9-40c2-8bbd-3eaa77816017"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

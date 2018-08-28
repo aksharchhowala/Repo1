@@ -1570,3 +1570,12 @@ h3#testCasesHeader {
             background-position: 0;
         }
         */
+
+#customtable {
+	font-weight:bold;
+	text-align: center;
+	font-family:Times New Roman;
+	border-style: double;
+	color: blue;
+	font-size: 15px
+}

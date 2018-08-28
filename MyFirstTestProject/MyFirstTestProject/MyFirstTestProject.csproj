@@ -117,6 +117,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Amazon\AmazonLaunch.cs">
+      <id>790d9061-0b38-49f7-a4ac-c016ad641a74</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>bf0776da-3b80-4876-b849-f376ac21f4aa</id>
     </Compile>
@@ -153,6 +156,12 @@
     <Compile Include="ReportToPDF_7.X.cs">
       <id>3a4ce29f-eed0-47e6-b943-a43bb43464cc</id>
     </Compile>
+    <Compile Include="Repository\Amazon_Repo.cs">
+      <DependentUpon>Amazon_Repo.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>f3594586-0266-4c81-90ad-21944e88f2ed</id>
+      <BoundTo>4d36c50f-ae54-4448-9006-a68f3c1f4651</BoundTo>
+    </Compile>
     <Compile Include="Repository\FaceBookRepo.cs">
       <DependentUpon>FaceBookRepo.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
@@ -181,6 +190,17 @@
   <ItemGroup>
     <None Include="app.config">
       <id>494c02d4-daf3-4925-a6d9-c7797dc3bbe8</id>
+    </None>
+    <None Include="Repository\Amazon_Repo.rximg">
+      <DependentUpon>Amazon_Repo.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>704e5e09-538f-496c-924a-ee478e1fb0bc</id>
+      <BoundTo>4d36c50f-ae54-4448-9006-a68f3c1f4651</BoundTo>
+    </None>
+    <None Include="Repository\Amazon_Repo.rxrep">
+      <id>4d36c50f-ae54-4448-9006-a68f3c1f4651</id>
+      <repoid>cecfd7b2-d028-4f3f-87d8-6660d7d3a988</repoid>
+      <reporootid>54894421-98c9-40c2-8bbd-3eaa77816017</reporootid>
     </None>
     <None Include="Repository\FaceBookRepo.rximg">
       <DependentUpon>FaceBookRepo.rxrep</DependentUpon>
@@ -262,6 +282,9 @@
     </Folder>
     <Folder Include="MyDaily">
       <id>d9a5759b-14c5-48fd-b8c1-32ba7f820445</id>
+    </Folder>
+    <Folder Include="Amazon">
+      <id>fc84a742-c321-4f64-bbba-4815ba6386c9</id>
     </Folder>
     <Folder Include="Repository">
       <id>67bfd64a-85f6-420c-a62d-74980d9a5556</id>

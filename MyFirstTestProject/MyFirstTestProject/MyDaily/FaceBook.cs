@@ -30,7 +30,7 @@ namespace MyFirstTestProject.MyDaily
 		
 		
 		public void loginTOFacebook(){
-        	if (fbRepo.FacebookLogInOrSignUp.txt_EmailInfo.Exists(10000)) {
+        	if (fbRepo.FacebookLogInOrSignUp.txt_EmailInfo.Exists(5000)) {
         		textValue_fn(fbRepo.FacebookLogInOrSignUp.txt_Email,"value","akshar.chhowala@gmail.com");
         		textValue_fn(fbRepo.FacebookLogInOrSignUp.txt_Password,"value","Goodluck@1994");
         		Click_fn(fbRepo.FacebookLogInOrSignUp.btn_LogIn);

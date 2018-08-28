@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="dc399c3e2494443"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="gg5bpd"
+		rxversion="8.2.1.0"
+		host="PNI6W2488"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="8/21/2018 5:12:51 PM"
+		timestampiso="2018-08-21T11:42:51"
+		endtime="8/21/2018 5:12:51 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.031"
+			timeRelativeToTestModuleStartTime="00:00.031"
+			timeWallClock="17:12:51"
+			time="00:00.031"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				The report file or directory could not be created. The custom report template directory 'D:\Akshar Chhowala\GetRepo\MyFirstTestProject\MyFirstTestProject\bin\Debug\NewCustomTemplate2' does not exist.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Testing.TestSuiteRunner.SetUpReportFromTestSuite(RunParams rp, TestSuite testSuite, ReportLevel reportLevel, String customReportFileLocation)
+   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>
