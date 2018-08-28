@@ -27,6 +27,7 @@ namespace MyFirstTestProject.Repository
     public partial class Amazon_Repo : RepoGenBaseFolder
     {
         static Amazon_Repo instance = new Amazon_Repo();
+        Amazon_RepoFolders.AmazonComOnlineShoppingForElectronAppFolder _amazoncomonlineshoppingforelectron;
 
         /// <summary>
         /// Gets the singleton class instance representing the Amazon_Repo element repository.
@@ -43,6 +44,7 @@ namespace MyFirstTestProject.Repository
         public Amazon_Repo() 
             : base("Amazon_Repo", "/", null, 0, false, "54894421-98c9-40c2-8bbd-3eaa77816017", ".\\RepositoryImages\\Amazon_Repo54894421.rximgres")
         {
+            _amazoncomonlineshoppingforelectron = new Amazon_RepoFolders.AmazonComOnlineShoppingForElectronAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +62,15 @@ namespace MyFirstTestProject.Repository
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The AmazonComOnlineShoppingForElectron folder.
+        /// </summary>
+        [RepositoryFolder("f7541bf3-b009-4c72-9034-720ad19a1126")]
+        public virtual Amazon_RepoFolders.AmazonComOnlineShoppingForElectronAppFolder AmazonComOnlineShoppingForElectron
+        {
+            get { return _amazoncomonlineshoppingforelectron; }
+        }
     }
 
     /// <summary>
@@ -68,6 +79,124 @@ namespace MyFirstTestProject.Repository
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     public partial class Amazon_RepoFolders
     {
+        /// <summary>
+        /// The AmazonComOnlineShoppingForElectronAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("f7541bf3-b009-4c72-9034-720ad19a1126")]
+        public partial class AmazonComOnlineShoppingForElectronAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _btn_loginInfo;
+            RepoItemInfo _txt_usernameInfo;
+            RepoItemInfo _btn_continueInfo;
+
+            /// <summary>
+            /// Creates a new AmazonComOnlineShoppingForElectron  folder.
+            /// </summary>
+            public AmazonComOnlineShoppingForElectronAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("AmazonComOnlineShoppingForElectron", "/dom[@domain='www.amazon.com']", parentFolder, 30000, null, false, "f7541bf3-b009-4c72-9034-720ad19a1126", "")
+            {
+                _btn_loginInfo = new RepoItemInfo(this, "btn_Login", ".//a[#'nav-link-accountList']", 30000, null, "79d5a5c2-7b60-4615-a873-547f84e94cb4");
+                _txt_usernameInfo = new RepoItemInfo(this, "txt_UserName", ".//input[#'ap_email']", 30000, null, "b910b2a7-bb26-458f-88e4-c2bdf2bcc6a2");
+                _btn_continueInfo = new RepoItemInfo(this, "btn_Continue", ".//span[#'continue']/?/?/input[@id='continue']", 30000, null, "6fc068c2-d2ba-44a6-aa0b-77514fe938f3");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("f7541bf3-b009-4c72-9034-720ad19a1126")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("f7541bf3-b009-4c72-9034-720ad19a1126")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The btn_Login item.
+            /// </summary>
+            [RepositoryItem("79d5a5c2-7b60-4615-a873-547f84e94cb4")]
+            public virtual Ranorex.ATag btn_Login
+            {
+                get
+                {
+                    return _btn_loginInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The btn_Login item info.
+            /// </summary>
+            [RepositoryItemInfo("79d5a5c2-7b60-4615-a873-547f84e94cb4")]
+            public virtual RepoItemInfo btn_LoginInfo
+            {
+                get
+                {
+                    return _btn_loginInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_UserName item.
+            /// </summary>
+            [RepositoryItem("b910b2a7-bb26-458f-88e4-c2bdf2bcc6a2")]
+            public virtual Ranorex.InputTag txt_UserName
+            {
+                get
+                {
+                    return _txt_usernameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_UserName item info.
+            /// </summary>
+            [RepositoryItemInfo("b910b2a7-bb26-458f-88e4-c2bdf2bcc6a2")]
+            public virtual RepoItemInfo txt_UserNameInfo
+            {
+                get
+                {
+                    return _txt_usernameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The btn_Continue item.
+            /// </summary>
+            [RepositoryItem("6fc068c2-d2ba-44a6-aa0b-77514fe938f3")]
+            public virtual Ranorex.InputTag btn_Continue
+            {
+                get
+                {
+                    return _btn_continueInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The btn_Continue item info.
+            /// </summary>
+            [RepositoryItemInfo("6fc068c2-d2ba-44a6-aa0b-77514fe938f3")]
+            public virtual RepoItemInfo btn_ContinueInfo
+            {
+                get
+                {
+                    return _btn_continueInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

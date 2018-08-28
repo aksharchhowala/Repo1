@@ -13,6 +13,65 @@ rxversion="8.2">
 	name="Root"
 	searchtimeout="0ms"
 	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="f7541bf3-b009-4c72-9034-720ad19a1126"
+		isrooted="True"
+		name="AmazonComOnlineShoppingForElectron"
+		refimgid="be45afbe-bf1f-48d3-b73f-7328aa283efc"
+		refpath="/dom[@domain='www.amazon.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="79d5a5c2-7b60-4615-a873-547f84e94cb4"
+			name="btn_Login"
+			refimgid="1fd813a2-cb0e-4fa0-aa1a-2b494e2406e9"
+			refpath="/dom[@domain='www.amazon.com']//a[#'nav-link-accountList']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.com']//a[#'nav-link-accountList']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b910b2a7-bb26-458f-88e4-c2bdf2bcc6a2"
+			name="txt_UserName"
+			refimgid="019ffdce-bf14-4c15-8189-0753afda82bf"
+			refpath="/dom[@domain='www.amazon.com']//input[#'ap_email']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.com']//input[#'ap_email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6fc068c2-d2ba-44a6-aa0b-77514fe938f3"
+			name="btn_Continue"
+			refimgid="ae47e5ac-edea-4f5a-bd2e-1c89ab6975c1"
+			refpath="/dom[@domain='www.amazon.com']//span[#'continue']/span/input[@id='continue']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.amazon.com']//span[#'continue']/?/?/input[@id='continue']
+			</item>
+			<basepath>
+				/dom[@domain='www.amazon.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

@@ -13,6 +13,9 @@ using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Threading;
 using WinForms = System.Windows.Forms;
+using MyFirstTestProject;
+using MyFirstTestProject.Repository;
+
 
 using Ranorex;
 using Ranorex.Core;
@@ -24,7 +27,7 @@ namespace MyFirstTestProject.Amazone
     /// Description of AmazonLaunch.
     /// </summary>
     [TestModule("980F41D3-71D6-40DF-834E-C1E3A2E3DC17", ModuleType.UserCode, 1)]
-    public class AmazonLaunch : ITestModule
+    public class AmazonLaunch : CommonFunctions, ITestModule
     {
         /// <summary>
         /// Constructs a new instance.
@@ -45,8 +48,12 @@ namespace MyFirstTestProject.Amazone
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
+            Amazon.AmazonFunctions amazonFunctions = new MyFirstTestProject.Amazon.AmazonFunctions();
+            amazonFunctions.LanuchAmazon();
+            amazonFunctions.LoginAmazon();
         }
         
+      
         
     }
 }

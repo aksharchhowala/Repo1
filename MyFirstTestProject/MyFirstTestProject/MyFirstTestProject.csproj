@@ -117,6 +117,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Amazon\AmazonFunctions.cs">
+      <id>d3be3b57-fe81-40a1-a4dd-f05a65084fc3</id>
+    </Compile>
     <Compile Include="Amazon\AmazonLaunch.cs">
       <id>790d9061-0b38-49f7-a4ac-c016ad641a74</id>
     </Compile>
