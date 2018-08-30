@@ -49,6 +49,42 @@ namespace MyFirstTestProject.Repository
 
 #region Variables
 
+        string _strLoginLink = "nav-link-accountList";
+
+        /// <summary>
+        /// Gets or sets the value of variable strLoginLink.
+        /// </summary>
+        [TestVariable("8aa6feb7-aeca-40d7-82fc-cd095ca9b97e")]
+        public string strLoginLink
+        {
+            get { return _strLoginLink; }
+            set { _strLoginLink = value; }
+        }
+
+        string _strWebAddress = "www.amazon.com";
+
+        /// <summary>
+        /// Gets or sets the value of variable strWebAddress.
+        /// </summary>
+        [TestVariable("170effa9-de9d-4ffe-aac6-d6a0137cf229")]
+        public string strWebAddress
+        {
+            get { return _strWebAddress; }
+            set { _strWebAddress = value; }
+        }
+
+        string _strLoginId = "nav-link-yourAccount";
+
+        /// <summary>
+        /// Gets or sets the value of variable strLoginId.
+        /// </summary>
+        [TestVariable("0f744b69-af28-41ed-b1d9-02189d70f132")]
+        public string strLoginId
+        {
+            get { return _strLoginId; }
+            set { _strLoginId = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -85,7 +121,7 @@ namespace MyFirstTestProject.Repository
         [RepositoryFolder("f7541bf3-b009-4c72-9034-720ad19a1126")]
         public partial class AmazonComOnlineShoppingForElectronAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _btn_loginInfo;
+            RepoItemInfo _link_loginInfo;
             RepoItemInfo _txt_usernameInfo;
             RepoItemInfo _btn_continueInfo;
             RepoItemInfo _txt_searchbarInfo;
@@ -94,9 +130,9 @@ namespace MyFirstTestProject.Repository
             /// Creates a new AmazonComOnlineShoppingForElectron  folder.
             /// </summary>
             public AmazonComOnlineShoppingForElectronAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("AmazonComOnlineShoppingForElectron", "/dom[@domain='www.amazon.com']", parentFolder, 30000, null, false, "f7541bf3-b009-4c72-9034-720ad19a1126", "")
+                    base("AmazonComOnlineShoppingForElectron", "/dom[@domain=$strWebAddress]", parentFolder, 30000, null, false, "f7541bf3-b009-4c72-9034-720ad19a1126", "")
             {
-                _btn_loginInfo = new RepoItemInfo(this, "btn_Login", ".//a[#'nav-link-accountList']", 30000, null, "79d5a5c2-7b60-4615-a873-547f84e94cb4");
+                _link_loginInfo = new RepoItemInfo(this, "link_Login", ".//a[#$strLoginId]", 30000, null, "ece87dec-52a6-4c23-aec5-00016d3d1eab");
                 _txt_usernameInfo = new RepoItemInfo(this, "txt_UserName", ".//input[#'ap_email']", 30000, null, "b910b2a7-bb26-458f-88e4-c2bdf2bcc6a2");
                 _btn_continueInfo = new RepoItemInfo(this, "btn_Continue", ".//span[#'continue']/?/?/input[@id='continue']", 30000, null, "6fc068c2-d2ba-44a6-aa0b-77514fe938f3");
                 _txt_searchbarInfo = new RepoItemInfo(this, "txt_SearchBar", ".//input[#'twotabsearchtextbox']", 30000, null, "c6ab7376-458e-4175-83a2-064ff566097d");
@@ -127,26 +163,26 @@ namespace MyFirstTestProject.Repository
             }
 
             /// <summary>
-            /// The btn_Login item.
+            /// The link_Login item.
             /// </summary>
-            [RepositoryItem("79d5a5c2-7b60-4615-a873-547f84e94cb4")]
-            public virtual Ranorex.ATag btn_Login
+            [RepositoryItem("ece87dec-52a6-4c23-aec5-00016d3d1eab")]
+            public virtual Ranorex.ATag link_Login
             {
                 get
                 {
-                    return _btn_loginInfo.CreateAdapter<Ranorex.ATag>(true);
+                    return _link_loginInfo.CreateAdapter<Ranorex.ATag>(true);
                 }
             }
 
             /// <summary>
-            /// The btn_Login item info.
+            /// The link_Login item info.
             /// </summary>
-            [RepositoryItemInfo("79d5a5c2-7b60-4615-a873-547f84e94cb4")]
-            public virtual RepoItemInfo btn_LoginInfo
+            [RepositoryItemInfo("ece87dec-52a6-4c23-aec5-00016d3d1eab")]
+            public virtual RepoItemInfo link_LoginInfo
             {
                 get
                 {
-                    return _btn_loginInfo;
+                    return _link_loginInfo;
                 }
             }
 

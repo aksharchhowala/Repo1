@@ -20,21 +20,36 @@ namespace MyFirstTestProject.Amazon
 	public class AmazonFunctions : CommonFunctions
 	{
 		public MyFirstTestProject.Repository.Amazon_Repo amazonRepo;
+		string strLoginId;
+		string strWebAddress;
+				
 		public AmazonFunctions()
 		{
 			amazonRepo = MyFirstTestProject.Repository.Amazon_Repo.Instance;
 		}
 		
-		public void LanuchAmazon(){
-			closeBrowser("chrome");
-			Host.Local.OpenBrowser("www.Amazon.in","chrome","",false,true,false,false,false);
+		public void LanuchAmazon(string strBrowserLink = "www.Amazon.in"){
+			//closeBrowser("chrome");
+			if (strBrowserLink.Equals("www.Amazon.in")) {
+				amazonRepo.strWebAddress = strBrowserLink;
+				amazonRepo.strLoginId = "nav-link-yourAccount";
+			}
+			else if (strBrowserLink.Equals("www.Amazon.com")) {
+				amazonRepo.strWebAddress = strBrowserLink;
+				amazonRepo.strLoginId = "";
+			}
+			else{
+				Report.Failure("Test case failed because provided web address dose not match.");
+			}
+			
+			Host.Local.OpenBrowser(strBrowserLink,"chrome","",false,true,false,false,false);
 			Thread.Sleep(2000);
 			SuccessWithScreenshot("Amazon website launched");
 		}
 		
 		public void LoginAmazon(){
-			if (amazonRepo.AmazonComOnlineShoppingForElectron.btn_LoginInfo.Exists(5000)) {
-				Click_fn(amazonRepo.AmazonComOnlineShoppingForElectron.btn_Login);
+			if (amazonRepo.AmazonComOnlineShoppingForElectron.link_LoginInfo.Exists(5000)) {
+				Click_fn(amazonRepo.AmazonComOnlineShoppingForElectron.link_Login);
 				if (amazonRepo.AmazonComOnlineShoppingForElectron.txt_UserNameInfo.Exists(5000)) {
 					textValue_fn(amazonRepo.AmazonComOnlineShoppingForElectron.txt_UserName,"value","8320417466");
 					Click_fn(amazonRepo.AmazonComOnlineShoppingForElectron.btn_Continue);

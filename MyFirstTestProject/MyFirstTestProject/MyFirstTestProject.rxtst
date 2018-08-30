@@ -119,6 +119,12 @@ rxversion="8.2">
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="4633ad1e-aa56-4233-b887-b5c224643b6e"
+			name="AmazonSearchFunction"
+			ref="26b8bda5-5b89-4475-8a09-08e419f99849"
+			type="UserCode">
+			</testmodule>
+			<testmodule
 			id="7e11a2fb-0f6e-4c1e-a629-5425c000247c"
 			name="LogIn"
 			ref="c3ab70e8-67fa-42dc-94a1-15deda2900ca"
@@ -278,6 +284,10 @@ rxversion="8.2">
 						id="c71784a7-cd84-4d40-ab16-c5e941515136"
 						name="AmazonLaunch">
 						</testmodule>
+						<testmodule
+						id="4633ad1e-aa56-4233-b887-b5c224643b6e"
+						name="AmazonSearchFunction">
+						</testmodule>
 					</testcase>
 				</testcase>
 			</testsuite>
@@ -350,7 +360,7 @@ rxversion="8.2">
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="Amazon">
+	default="DailyRoutin">
 		<testconfiguration
 		name="AddDelete">
 			<testcontainer

@@ -20,18 +20,16 @@ rxversion="8.2">
 		isrooted="True"
 		name="AmazonComOnlineShoppingForElectron"
 		refimgid="be45afbe-bf1f-48d3-b73f-7328aa283efc"
-		refpath="/dom[@domain='www.amazon.com']"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
 			addcaps="unknown,webelement,atag"
 			capname="atag"
-			id="79d5a5c2-7b60-4615-a873-547f84e94cb4"
-			name="btn_Login"
-			refimgid="1fd813a2-cb0e-4fa0-aa1a-2b494e2406e9"
-			refpath="/dom[@domain='www.amazon.com']//a[#'nav-link-accountList']"
+			id="ece87dec-52a6-4c23-aec5-00016d3d1eab"
+			name="link_Login"
+			refimgid="c8313eee-8c8c-429b-91a0-d840cc041408"
 			searchtimeout="30000ms">
-				/dom[@domain='www.amazon.com']//a[#'nav-link-accountList']
+				/dom[@domain=$strWebAddress]//a[#$strLoginId]
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -39,9 +37,8 @@ rxversion="8.2">
 			id="b910b2a7-bb26-458f-88e4-c2bdf2bcc6a2"
 			name="txt_UserName"
 			refimgid="019ffdce-bf14-4c15-8189-0753afda82bf"
-			refpath="/dom[@domain='www.amazon.com']//input[#'ap_email']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.amazon.com']//input[#'ap_email']
+				/dom[@domain=$strWebAddress]//input[#'ap_email']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -49,9 +46,8 @@ rxversion="8.2">
 			id="6fc068c2-d2ba-44a6-aa0b-77514fe938f3"
 			name="btn_Continue"
 			refimgid="ae47e5ac-edea-4f5a-bd2e-1c89ab6975c1"
-			refpath="/dom[@domain='www.amazon.com']//span[#'continue']/span/input[@id='continue']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.amazon.com']//span[#'continue']/?/?/input[@id='continue']
+				/dom[@domain=$strWebAddress]//span[#'continue']/?/?/input[@id='continue']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -59,12 +55,11 @@ rxversion="8.2">
 			id="c6ab7376-458e-4175-83a2-064ff566097d"
 			name="txt_SearchBar"
 			refimgid="33bc60bf-a7e1-47fd-ace9-9b0037ba4fa3"
-			refpath="/dom[@domain='www.amazon.com']//input[#'twotabsearchtextbox']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.amazon.com']//input[#'twotabsearchtextbox']
+				/dom[@domain=$strWebAddress]//input[#'twotabsearchtextbox']
 			</item>
 			<basepath>
-				/dom[@domain='www.amazon.com']
+				/dom[@domain=$strWebAddress]
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
@@ -86,5 +81,20 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		</basepath>
 	</rootfolder>
 	<variables>
+		<var
+		id="8aa6feb7-aeca-40d7-82fc-cd095ca9b97e"
+		name="strLoginLink">
+			nav-link-accountList
+		</var>
+		<var
+		id="170effa9-de9d-4ffe-aac6-d6a0137cf229"
+		name="strWebAddress">
+			www.amazon.com
+		</var>
+		<var
+		id="0f744b69-af28-41ed-b1d9-02189d70f132"
+		name="strLoginId">
+			nav-link-yourAccount
+		</var>
 	</variables>
 </repository>

@@ -1,13 +1,17 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Amazon\AmazonLaunch.cs" />
+    <Element value="Amazon\AmazonFunctions.cs" />
   </Array>
-  <Array name="bookmarks" />
+  <Array name="bookmarks">
+    <Element value="Breakpoint|D:\Akshar Chhowala\GetRepo\MyFirstTestProject\MyFirstTestProject\Amazon\AmazonFunctions.cs|38|4|True|Break||" />
+  </Array>
   <Array name="files">
+    <Element value="Amazon\AmazonLaunch.cs" />
     <Element value="Repository\Amazon_Repo.rxrep" />
     <Element value="Amazon\AmazonFunctions.cs" />
     <Element value="Amazon\AmazonSearchFunction.cs" />
-    <Element value="Amazon\AmazonLaunch.cs" />
+    <Element value="MyFirstTestProject.rxtst" />
+    <Element value="Repository\KeePassRepo.rxrep" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

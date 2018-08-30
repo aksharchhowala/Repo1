@@ -10,6 +10,6 @@
       <string>d9a5759b-14c5-48fd-b8c1-32ba7f820445</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution MyFirstTestProject[MyFirstTestProject[Amazon[]Common[]Repository[]]]]&#xD;&#xA;Solution MyFirstTestProject\MyFirstTestProject\Amazon\AmazonLaunch.cs&#xD;&#xA;Solution MyFirstTestProject" />
+  <ProjectBrowserState value="[Solution MyFirstTestProject[MyFirstTestProject[Amazon[]Common[]Repository[]]]]&#xD;&#xA;Solution MyFirstTestProject\MyFirstTestProject\Amazon\AmazonFunctions.cs&#xD;&#xA;Solution MyFirstTestProject" />
   <StartupProject value="{5920741F-5C5A-4AC1-AE98-C0BF76FA2735}" />
 </Properties>
